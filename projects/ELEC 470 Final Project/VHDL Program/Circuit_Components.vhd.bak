@@ -1,0 +1,18 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Circuit_Components is
+	generic(measurement : integer:= 9);
+	port(
+		
+	);
+end entity;
+
+architecture behave of Circuit_Components is
+
+
+begin
+
+
+end architecture;

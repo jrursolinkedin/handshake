@@ -1,0 +1,13 @@
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\bin\Debug\netcoreapp3.1\Priority Queue.exe
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\bin\Debug\netcoreapp3.1\Priority Queue.deps.json
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\bin\Debug\netcoreapp3.1\Priority Queue.runtimeconfig.json
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\bin\Debug\netcoreapp3.1\Priority Queue.runtimeconfig.dev.json
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\bin\Debug\netcoreapp3.1\Priority Queue.dll
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\bin\Debug\netcoreapp3.1\Priority Queue.pdb
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\obj\Debug\netcoreapp3.1\Priority Queue.csprojAssemblyReference.cache
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\obj\Debug\netcoreapp3.1\Priority Queue.AssemblyInfoInputs.cache
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\obj\Debug\netcoreapp3.1\Priority Queue.AssemblyInfo.cs
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\obj\Debug\netcoreapp3.1\Priority Queue.csproj.CoreCompileInputs.cache
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\obj\Debug\netcoreapp3.1\Priority Queue.dll
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\obj\Debug\netcoreapp3.1\Priority Queue.pdb
+C:\Users\16306\Documents\C# workplace\Priority Queue\Priority Queue\obj\Debug\netcoreapp3.1\Priority Queue.genruntimeconfig.cache

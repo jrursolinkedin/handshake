@@ -1,0 +1,13 @@
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\bin\Debug\netcoreapp3.1\Dynamic Array.exe
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\bin\Debug\netcoreapp3.1\Dynamic Array.deps.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\bin\Debug\netcoreapp3.1\Dynamic Array.runtimeconfig.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\bin\Debug\netcoreapp3.1\Dynamic Array.runtimeconfig.dev.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\bin\Debug\netcoreapp3.1\Dynamic Array.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\bin\Debug\netcoreapp3.1\Dynamic Array.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\obj\Debug\netcoreapp3.1\Dynamic Array.csprojAssemblyReference.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\obj\Debug\netcoreapp3.1\Dynamic Array.AssemblyInfoInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\obj\Debug\netcoreapp3.1\Dynamic Array.AssemblyInfo.cs
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\obj\Debug\netcoreapp3.1\Dynamic Array.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\obj\Debug\netcoreapp3.1\Dynamic Array.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\obj\Debug\netcoreapp3.1\Dynamic Array.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Dynamic Array\Dynamic Array\obj\Debug\netcoreapp3.1\Dynamic Array.genruntimeconfig.cache

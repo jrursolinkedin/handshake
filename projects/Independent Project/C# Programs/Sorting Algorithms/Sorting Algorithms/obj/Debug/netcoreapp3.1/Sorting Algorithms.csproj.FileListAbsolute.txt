@@ -1,0 +1,26 @@
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.exe
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.deps.json
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.runtimeconfig.json
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.runtimeconfig.dev.json
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.dll
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.pdb
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.csprojAssemblyReference.cache
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.AssemblyInfoInputs.cache
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.AssemblyInfo.cs
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.dll
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.pdb
+C:\Users\16306\Documents\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.genruntimeconfig.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.exe
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.deps.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.runtimeconfig.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.runtimeconfig.dev.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\bin\Debug\netcoreapp3.1\Sorting Algorithms.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.csprojAssemblyReference.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.AssemblyInfoInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.AssemblyInfo.cs
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sorting Algorithms\Sorting Algorithms\obj\Debug\netcoreapp3.1\Sorting Algorithms.genruntimeconfig.cache

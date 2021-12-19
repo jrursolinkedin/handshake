@@ -1,0 +1,13 @@
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\bin\Debug\netcoreapp3.1\PrefixPostfixConverter.exe
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\bin\Debug\netcoreapp3.1\PrefixPostfixConverter.deps.json
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\bin\Debug\netcoreapp3.1\PrefixPostfixConverter.runtimeconfig.json
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\bin\Debug\netcoreapp3.1\PrefixPostfixConverter.runtimeconfig.dev.json
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\bin\Debug\netcoreapp3.1\PrefixPostfixConverter.dll
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\bin\Debug\netcoreapp3.1\PrefixPostfixConverter.pdb
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\obj\Debug\netcoreapp3.1\PrefixPostfixConverter.csprojAssemblyReference.cache
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\obj\Debug\netcoreapp3.1\PrefixPostfixConverter.AssemblyInfoInputs.cache
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\obj\Debug\netcoreapp3.1\PrefixPostfixConverter.AssemblyInfo.cs
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\obj\Debug\netcoreapp3.1\PrefixPostfixConverter.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\obj\Debug\netcoreapp3.1\PrefixPostfixConverter.dll
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\obj\Debug\netcoreapp3.1\PrefixPostfixConverter.pdb
+C:\Users\jrurs\Documents\PrefixPostfixConverter\PrefixPostfixConverter\obj\Debug\netcoreapp3.1\PrefixPostfixConverter.genruntimeconfig.cache

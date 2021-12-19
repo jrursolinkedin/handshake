@@ -1,0 +1,1004 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Testing Pin Project/simulation
+Ecalculator_cm_comparator
+Z0 w1636153478
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+Z4 dC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/simulation/work
+Z5 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Comparator.vhd
+Z6 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Comparator.vhd
+l0
+L5 1
+VPU^OSR12]zQkZozAGEEI41
+!s100 DXhGk=Dm;NkNiheMo^>JR0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1638414636
+!i10b 1
+Z9 !s108 1638414636.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Comparator.vhd|
+Z11 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Comparator.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehave
+R1
+R2
+R3
+DEx4 work 24 calculator_cm_comparator 0 22 PU^OSR12]zQkZozAGEEI41
+!i122 0
+l15
+Z14 L14 16
+VfWm?QQRl`WZnG_6P`^6_70
+!s100 V8AGJoFnJ2[SEHaW;WdLV3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecalculator_cm_counter_one
+Z15 w1636152654
+R1
+R2
+R3
+!i122 1
+R4
+Z16 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Counter_One.vhd
+Z17 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Counter_One.vhd
+l0
+L5 1
+VkfPnVjk2Sj0N6CklzmKk:2
+!s100 4<ba<mjVTVY6I7a8VXZRB1
+R7
+32
+R8
+!i10b 1
+R9
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Counter_One.vhd|
+Z19 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Counter_One.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 25 calculator_cm_counter_one 0 22 kfPnVjk2Sj0N6CklzmKk:2
+!i122 1
+l20
+Z20 L15 35
+V3G@EESYcSTnl`:_MY^gdA1
+!s100 ;IDT9a4N?P>Qoic=^Go:43
+R7
+32
+R8
+!i10b 1
+R9
+R18
+R19
+!i113 1
+R12
+R13
+Ecalculator_cm_counter_two
+Z21 w1636152671
+R1
+R2
+R3
+!i122 2
+R4
+Z22 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Counter_Two.vhd
+Z23 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Counter_Two.vhd
+l0
+L5 1
+VPIXYi4bIajCB56BzI7CTQ3
+!s100 [4DDdz>MI[cV[d6cLHY8e1
+R7
+32
+R8
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Counter_Two.vhd|
+Z25 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_Counter_Two.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 25 calculator_cm_counter_two 0 22 PIXYi4bIajCB56BzI7CTQ3
+!i122 2
+l20
+R20
+V=Y78R1bikF>Pd0<U6VomQ0
+!s100 7_0GQj]:C`keAngAZciPl1
+R7
+32
+R8
+!i10b 1
+R9
+R24
+R25
+!i113 1
+R12
+R13
+Ecalculator_cm_fsm
+Z26 w1637531227
+R1
+R2
+R3
+!i122 3
+R4
+Z27 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_FSM.vhd
+Z28 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_FSM.vhd
+l0
+L5 1
+VA7<@7T<35Ee@iO6QR8dSA3
+!s100 O0SP9h_>N40z5Y`<4aO_i0
+R7
+32
+R8
+!i10b 1
+R9
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_FSM.vhd|
+Z30 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Calculator_Cm_FSM.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 17 calculator_cm_fsm 0 22 A7<@7T<35Ee@iO6QR8dSA3
+!i122 3
+l22
+L17 71
+Vc`H>WQjHiAl^Ymdk]G@SY0
+!s100 lLA^h2m0^XM40`mg11_fb1
+R7
+32
+R8
+!i10b 1
+R9
+R29
+R30
+!i113 1
+R12
+R13
+Ecircuit_components
+Z31 w1638153051
+R1
+R2
+R3
+!i122 4
+R4
+Z32 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Circuit_Components.vhd
+Z33 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Circuit_Components.vhd
+l0
+L5 1
+V[U<a2?<HgMU:zVL=OKWV?1
+!s100 mo`@L:kj:_TZ];[@XB>3>1
+R7
+32
+R8
+!i10b 1
+R9
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Circuit_Components.vhd|
+Z35 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Circuit_Components.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 18 circuit_components 0 22 [U<a2?<HgMU:zVL=OKWV?1
+!i122 4
+l66
+L21 96
+VgLYIE8UWXh>A6fiOi7BJb1
+!s100 VY>lz]JfM>l8=1gHC7<O<0
+R7
+32
+R8
+!i10b 1
+R9
+R34
+R35
+!i113 1
+R12
+R13
+Ecircuit_components_tb
+Z36 w1638231666
+R1
+R2
+R3
+!i122 5
+R4
+Z37 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Circuit_Components_tb.vhd
+Z38 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Circuit_Components_tb.vhd
+l0
+L5 1
+V[KLCoLb24CObj[^l7n7El1
+!s100 3OclHSbifgN^LLO2@D__J2
+R7
+32
+R8
+!i10b 1
+R9
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Circuit_Components_tb.vhd|
+Z40 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Circuit_Components_tb.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 21 circuit_components_tb 0 22 [KLCoLb24CObj[^l7n7El1
+!i122 5
+l44
+L8 80
+VJQg8EJ`BNO4z0_H_g<f;82
+!s100 4kV]>SU_2Bm]MHFRG<WdY2
+R7
+32
+R8
+!i10b 1
+R9
+R39
+R40
+!i113 1
+R12
+R13
+Edistance_calculator
+Z41 w1636154024
+R1
+R2
+R3
+!i122 6
+R4
+Z42 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Calculator.vhd
+Z43 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Calculator.vhd
+l0
+L5 1
+VO5YeKBYE0L@9SK^CW<8TN3
+!s100 C`RUM[99WSaOlFhUW`McA0
+R7
+32
+R8
+!i10b 1
+R9
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Calculator.vhd|
+Z45 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Calculator.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 19 distance_calculator 0 22 O5YeKBYE0L@9SK^CW<8TN3
+!i122 6
+l16
+L15 117
+VUS3PZ4XFQ_YUk:DBbW?M[3
+!s100 X;8jjG<nYPGkQzANY89VA0
+R7
+32
+R8
+!i10b 1
+R9
+R44
+R45
+!i113 1
+R12
+R13
+Edistance_counter
+Z46 w1636152706
+R1
+R2
+R3
+!i122 7
+R4
+Z47 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Counter.vhd
+Z48 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Counter.vhd
+l0
+L5 1
+V0Ba8;EYM2CnYZdTWj@8>_2
+!s100 MX62iNGVc7iJAVe4>nLkK3
+R7
+32
+Z49 !s110 1638414637
+!i10b 1
+R9
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Counter.vhd|
+Z51 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Counter.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 16 distance_counter 0 22 0Ba8;EYM2CnYZdTWj@8>_2
+!i122 7
+l20
+R20
+VX6V@3>SKTmTk>HiJmIfmT0
+!s100 VjB=o8?:nnkWeQWeDU23W1
+R7
+32
+R49
+!i10b 1
+R9
+R50
+R51
+!i113 1
+R12
+R13
+Edistance_decoder
+Z52 w1636002849
+R1
+R2
+R3
+!i122 8
+R4
+Z53 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Decoder.vhd
+Z54 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Decoder.vhd
+l0
+L5 1
+Vl1g`cZbQ`W`4;64MI<<Wg2
+!s100 ^LCC_6j1OTJ69`ZgFoE[O0
+R7
+32
+R49
+!i10b 1
+Z55 !s108 1638414637.000000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Decoder.vhd|
+Z57 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_Decoder.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 16 distance_decoder 0 22 l1g`cZbQ`W`4;64MI<<Wg2
+!i122 8
+l18
+L17 22
+VX:[^]Y[AJN_PMPm`ZfiN_1
+!s100 f5I49UTK_X;z4dPc0NZl11
+R7
+32
+R49
+!i10b 1
+R55
+R56
+R57
+!i113 1
+R12
+R13
+Edistance_fsm
+Z58 w1637530513
+R1
+R2
+R3
+!i122 9
+R4
+Z59 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_FSM.vhd
+Z60 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_FSM.vhd
+l0
+L5 1
+V5iC=BQ>R0_1OIn>NVdQ6m0
+!s100 7Y[Vgoe3V=6CRVWNn9aF@1
+R7
+32
+R49
+!i10b 1
+R55
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_FSM.vhd|
+Z62 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Distance_FSM.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 12 distance_fsm 0 22 5iC=BQ>R0_1OIn>NVdQ6m0
+!i122 9
+l19
+L14 56
+V<6DjTeWnjZ[fej5<ak`JC3
+!s100 ldS;Y:K?4zAcmUdEnYmnS2
+R7
+32
+R49
+!i10b 1
+R55
+R61
+R62
+!i113 1
+R12
+R13
+Ehcsr04
+Z63 w1636154487
+R1
+R2
+R3
+!i122 10
+R4
+Z64 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/HCSR04.vhd
+Z65 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/HCSR04.vhd
+l0
+L7 1
+VQR^A>LOnVmdEWWSjm>SA>3
+!s100 lCg`g;ALoJVfW43NGjJgX2
+R7
+32
+R49
+!i10b 1
+R55
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/HCSR04.vhd|
+Z67 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/HCSR04.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 6 hcsr04 0 22 QR^A>LOnVmdEWWSjm>SA>3
+!i122 10
+l168
+L22 238
+Vl_^KH5mjF@KLH3TN_MT012
+!s100 mJCzTb>Pf9]Ac4UVZVdP43
+R7
+32
+R49
+!i10b 1
+R55
+R66
+R67
+!i113 1
+R12
+R13
+Eram
+Z68 w1636772526
+Z69 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z70 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+!i122 11
+R4
+Z71 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM.vhd
+Z72 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM.vhd
+l0
+L7 1
+Vch_0F;<;P31fhj^Fh7a[T0
+!s100 PCCcGzIJ@@BQjig`eP7cZ3
+R7
+32
+R49
+!i10b 1
+R55
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM.vhd|
+Z74 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM.vhd|
+!i113 1
+R12
+R13
+Abehave
+R69
+R70
+R1
+R2
+R3
+DEx4 work 3 ram 0 22 ch_0F;<;P31fhj^Fh7a[T0
+!i122 11
+l28
+L19 32
+VL:mI2NX4a62CAIHX9`Xel3
+!s100 c;Yn==KRQSf8kWRlLP2I91
+R7
+32
+R49
+!i10b 1
+R55
+R73
+R74
+!i113 1
+R12
+R13
+Eram_comparator
+Z75 w1636762066
+R1
+R2
+R3
+!i122 12
+R4
+Z76 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_Comparator.vhd
+Z77 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_Comparator.vhd
+l0
+L5 1
+Vo4^cd@0;9MHN?WP?h:Klg1
+!s100 =VSz:G2M2M=zPGZf[:8ka3
+R7
+32
+R49
+!i10b 1
+R55
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_Comparator.vhd|
+Z79 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_Comparator.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 14 ram_comparator 0 22 o4^cd@0;9MHN?WP?h:Klg1
+!i122 12
+l15
+R14
+VU_RNhhHCIAU@bQTamT?8h1
+!s100 zHZOlSWE:VTBPGE5Ie3S62
+R7
+32
+R49
+!i10b 1
+R55
+R78
+R79
+!i113 1
+R12
+R13
+Eram_counter
+Z80 w1636762340
+R1
+R2
+R3
+!i122 13
+R4
+Z81 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_Counter.vhd
+Z82 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_Counter.vhd
+l0
+L5 1
+VQDX?75hC?4GIOo05P33kM1
+!s100 6:j8z@o4@O40NEod;BNH]0
+R7
+32
+R49
+!i10b 1
+R55
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_Counter.vhd|
+Z84 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_Counter.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 11 ram_counter 0 22 QDX?75hC?4GIOo05P33kM1
+!i122 13
+l20
+R20
+VbLXCKV@:jm977D<H1@HbT2
+!s100 ocT7BSoVF492`Bkn?FM[12
+R7
+32
+R49
+!i10b 1
+R55
+R83
+R84
+!i113 1
+R12
+R13
+Eram_fsm
+Z85 w1637533807
+R1
+R2
+R3
+!i122 14
+R4
+Z86 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_FSM.vhd
+Z87 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_FSM.vhd
+l0
+L5 1
+VJCZJ`O01OdVWmic_AB;g>3
+!s100 okEcTFHf0ejVN17^3ag4c2
+R7
+32
+R49
+!i10b 1
+R55
+Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_FSM.vhd|
+Z89 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/RAM_FSM.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 7 ram_fsm 0 22 JCZJ`O01OdVWmic_AB;g>3
+!i122 14
+l24
+L19 85
+VoQj61]=8=Ief6Zn]n2O171
+!s100 k75S<>cUogBN]SMY346LV3
+R7
+32
+R49
+!i10b 1
+R55
+R88
+R89
+!i113 1
+R12
+R13
+Esensor_comparator
+Z90 w1636153100
+R1
+R2
+R3
+!i122 15
+R4
+Z91 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Comparator.vhd
+Z92 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Comparator.vhd
+l0
+L5 1
+V_nZ1bYoboi7FiXJ0H4nAh2
+!s100 :meMOimSn_7^3D7NnSG7Q3
+R7
+32
+Z93 !s110 1638414638
+!i10b 1
+Z94 !s108 1638414638.000000
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Comparator.vhd|
+Z96 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Comparator.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 17 sensor_comparator 0 22 _nZ1bYoboi7FiXJ0H4nAh2
+!i122 15
+l16
+L15 16
+V8AzQ<a`n<63HzhUTR07km0
+!s100 ZP8o<I`2_GfHjFf0WJ;1:1
+R7
+32
+R93
+!i10b 1
+R94
+R95
+R96
+!i113 1
+R12
+R13
+Esensor_counter
+Z97 w1636150031
+R1
+R2
+R3
+!i122 16
+R4
+Z98 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Counter.vhd
+Z99 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Counter.vhd
+l0
+L5 1
+Vd[WHL]5?OST@QkgJAG>SN1
+!s100 SVh<TcZ>94T]kz17<3<E:3
+R7
+32
+R93
+!i10b 1
+R94
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Counter.vhd|
+Z101 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Counter.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 14 sensor_counter 0 22 d[WHL]5?OST@QkgJAG>SN1
+!i122 16
+l20
+R20
+V6m>S9F>]7PO>X8[1fZV`@2
+!s100 <D`:Z?:E6CVQ=VYD7iRim0
+R7
+32
+R93
+!i10b 1
+R94
+R100
+R101
+!i113 1
+R12
+R13
+Esensor_fsm
+Z102 w1636152626
+R1
+R2
+R3
+!i122 17
+R4
+Z103 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_FSM.vhd
+Z104 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_FSM.vhd
+l0
+L5 1
+VCza@=]n^fXiBa<Ioj_P8Z3
+!s100 Pe3^?W>8LL_G]hHAo6[UR1
+R7
+32
+R93
+!i10b 1
+R94
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_FSM.vhd|
+Z106 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_FSM.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 10 sensor_fsm 0 22 Cza@=]n^fXiBa<Ioj_P8Z3
+!i122 17
+l22
+L17 69
+VAjI3NJCLHE8`VLd^JHdXc3
+!s100 a]ShESJQI<b2ZC^jPL=b63
+R7
+32
+R93
+!i10b 1
+R94
+R105
+R106
+!i113 1
+R12
+R13
+Esensor_ram
+Z107 w1636764124
+R1
+R2
+R3
+!i122 18
+R4
+Z108 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_RAM.vhd
+Z109 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_RAM.vhd
+l0
+L5 1
+VY]XH_25`O8iz610bzQWgL3
+!s100 mUDcY<mMm08kNKGOOmkiH2
+R7
+32
+R93
+!i10b 1
+R94
+Z110 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_RAM.vhd|
+Z111 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_RAM.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 10 sensor_ram 0 22 Y]XH_25`O8iz610bzQWgL3
+!i122 18
+l72
+L16 91
+VCDVC`DEI@iCHDTI?G^[4z2
+!s100 RK05@`zm1I4YQhLokXd:P0
+R7
+32
+R93
+!i10b 1
+R94
+R110
+R111
+!i113 1
+R12
+R13
+Esensor_serial
+Z112 w1637194282
+R1
+R2
+R3
+!i122 19
+R4
+Z113 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Serial.vhd
+Z114 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Serial.vhd
+l0
+L5 1
+V]Y[7Hl?M4@^GfE]iSWDNo3
+!s100 kPjP4C@>z5oFK^gK2EUAP0
+R7
+32
+R93
+!i10b 1
+R94
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Serial.vhd|
+Z116 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Sensor_Serial.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 13 sensor_serial 0 22 ]Y[7Hl?M4@^GfE]iSWDNo3
+!i122 19
+l62
+L17 73
+VDC^EW<Z^ceKA?E=I[<hMJ3
+!s100 >Nel<SFA806?ecYZ7aNV_1
+R7
+32
+R93
+!i10b 1
+R94
+R115
+R116
+!i113 1
+R12
+R13
+Eserial_comparator
+Z117 w1637192427
+R1
+R2
+R3
+!i122 20
+R4
+Z118 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_Comparator.vhd
+Z119 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_Comparator.vhd
+l0
+L5 1
+VXNf<MS:kKJ<ElIWa3m?zU3
+!s100 ?k0:T`gPU1gSQKmH9DcBC0
+R7
+32
+R93
+!i10b 1
+R94
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_Comparator.vhd|
+Z121 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_Comparator.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 17 serial_comparator 0 22 XNf<MS:kKJ<ElIWa3m?zU3
+!i122 20
+l15
+R14
+VJ@]J<E6GVehkTN08F3W2_1
+!s100 UPa386NUI2:AR[c0fSf>R1
+R7
+32
+R93
+!i10b 1
+R94
+R120
+R121
+!i113 1
+R12
+R13
+Eserial_counter
+Z122 w1637192083
+R1
+R2
+R3
+!i122 21
+R4
+Z123 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_Counter.vhd
+Z124 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_Counter.vhd
+l0
+L5 1
+VECM2T1@ff3LGaD;bhdfQ23
+!s100 hU0lMhdkF42OM[?H43<j[1
+R7
+32
+R93
+!i10b 1
+R94
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_Counter.vhd|
+Z126 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_Counter.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 14 serial_counter 0 22 ECM2T1@ff3LGaD;bhdfQ23
+!i122 21
+l20
+R20
+Vn<XbO5:5j^II3ilD0mZ971
+!s100 mH[LK[61:9]QK3B:3V:z;1
+R7
+32
+R93
+!i10b 1
+R94
+R125
+R126
+!i113 1
+R12
+R13
+Eserial_fsm
+Z127 w1637208237
+R1
+R2
+R3
+!i122 22
+R4
+Z128 8C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_FSM.vhd
+Z129 FC:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_FSM.vhd
+l0
+L5 1
+VoKd5VT9z]BO]M7M?K_NRC0
+!s100 n`ISSM6`@ODkT]C[cS>Ve3
+R7
+32
+Z130 !s110 1638414639
+!i10b 1
+R94
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_FSM.vhd|
+!s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_FSM.vhd|
+!i113 1
+R12
+R13
+Abehave
+R1
+R2
+R3
+DEx4 work 10 serial_fsm 0 22 oKd5VT9z]BO]M7M?K_NRC0
+!i122 22
+l25
+L20 209
+Vazdl<^OVWc`cE[1H<2b9O0
+!s100 fM7KoYhHh?W?`;QfgI0NY0
+R7
+32
+R130
+!i10b 1
+R94
+R131
+Z132 !s107 C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/copy of files/Serial_FSM.vhd|
+!i113 1
+R12
+R13

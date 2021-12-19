@@ -1,0 +1,1081 @@
+Analysis & Synthesis report for Final_Project
+Fri Dec 10 19:43:41 2021
+Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. User-Specified and Inferred Latches
+  9. Registers Removed During Synthesis
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: Top-level Entity: |Circuit_Components
+ 13. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04
+ 14. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Sensor_Counter:instantiate_sensor_count
+ 15. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Sensor_Comparator:instantiate_sensor_compar
+ 16. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Distance_Counter:instantiate_dist_count
+ 17. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Distance_Calculator:instantiate_dist_calc
+ 18. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Distance_Decoder:instantiate_dist_decoder
+ 19. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Calculator_Cm_Counter_One:instantiate_calc_cm_count_one
+ 20. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Calculator_Cm_Comparator:instantiate_calc_cm_compar
+ 21. Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Calculator_Cm_Counter_Two:instantiate_calc_cm_count_two
+ 22. Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram
+ 23. Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm
+ 24. Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram|RAM_Counter:instantiate_ram_count
+ 25. Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram|RAM_Comparator:instantiate_ram_comp
+ 26. Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram
+ 27. Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial
+ 28. Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_FSM:instaniate_serial_fsm
+ 29. Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_Counter:instantiate_serial_count
+ 30. Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:instantiate_serial_comp
+ 31. Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:StartComp
+ 32. Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_Counter:StartCounter
+ 33. Parameter Settings for User Entity Instance: Stepper_Motor:instantiate_motor
+ 34. Parameter Settings for User Entity Instance: Stepper_Motor:instantiate_motor|COUNTER:Counter1
+ 35. Parameter Settings for User Entity Instance: Stepper_Motor:instantiate_motor|Comparator:Comparator1
+ 36. Port Connectivity Checks: "Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1"
+ 37. Port Connectivity Checks: "Stepper_Motor:instantiate_motor|Comparator:Comparator1"
+ 38. Port Connectivity Checks: "Stepper_Motor:instantiate_motor|COUNTER:Counter1"
+ 39. Port Connectivity Checks: "Sensor_Serial:instantiate_sensor_serial|Serial_Counter:StartCounter"
+ 40. Port Connectivity Checks: "Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:StartComp"
+ 41. Port Connectivity Checks: "Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:instantiate_serial_comp"
+ 42. Port Connectivity Checks: "Sensor_RAM:instantiate_sensor_ram|RAM_Comparator:instantiate_ram_comp"
+ 43. Port Connectivity Checks: "HCSR04:instantiate_hcsr04|Calculator_Cm_Comparator:instantiate_calc_cm_compar"
+ 44. Port Connectivity Checks: "HCSR04:instantiate_hcsr04|Sensor_Comparator:instantiate_sensor_compar"
+ 45. Post-Synthesis Netlist Statistics for Top Partition
+ 46. Elapsed Time Per Partition
+ 47. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Fri Dec 10 19:43:41 2021       ;
+; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
+; Revision Name                   ; Final_Project                               ;
+; Top-level Entity Name           ; Circuit_Components                          ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 162                                         ;
+; Total pins                      ; 40                                          ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
+; Top-level entity name                                                           ; Circuit_Components ; Final_Project      ;
+; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Intel FPGA IP Evaluation Mode                                                   ; Enable             ; Enable             ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; Power Optimization During Synthesis                                             ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
+; Partial Reconfiguration Bitstream ID                                            ; Off                ; Off                ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processor 2            ;   0.1%      ;
+;     Processor 3            ;   0.1%      ;
+;     Processor 4            ;   0.1%      ;
++----------------------------+-------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                               ;
++--------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path     ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                                                    ; Library ;
++--------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; sensor/Calculator_Cm_Comparator.vhd  ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Comparator.vhd  ;         ;
+; sensor/Calculator_Cm_Counter_One.vhd ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Counter_One.vhd ;         ;
+; sensor/Calculator_Cm_Counter_Two.vhd ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Counter_Two.vhd ;         ;
+; sensor/Calculator_Cm_FSM.vhd         ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd         ;         ;
+; sensor/Distance_Calculator.vhd       ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Calculator.vhd       ;         ;
+; sensor/Distance_Counter.vhd          ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Counter.vhd          ;         ;
+; sensor/Distance_Decoder.vhd          ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Decoder.vhd          ;         ;
+; sensor/Distance_FSM.vhd              ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd              ;         ;
+; sensor/HCSR04.vhd                    ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd                    ;         ;
+; sensor/Sensor_Comparator.vhd         ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_Comparator.vhd         ;         ;
+; sensor/Sensor_Counter.vhd            ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_Counter.vhd            ;         ;
+; sensor/Sensor_FSM.vhd                ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd                ;         ;
+; ram/RAM.vhd                          ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd                          ;         ;
+; ram/RAM_Comparator.vhd               ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_Comparator.vhd               ;         ;
+; ram/RAM_Counter.vhd                  ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_Counter.vhd                  ;         ;
+; ram/RAM_FSM.vhd                      ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd                      ;         ;
+; ram/Sensor_RAM.vhd                   ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/Sensor_RAM.vhd                   ;         ;
+; serial/Sensor_Serial.vhd             ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd             ;         ;
+; serial/Serial_Comparator.vhd         ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_Comparator.vhd         ;         ;
+; serial/Serial_Counter.vhd            ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_Counter.vhd            ;         ;
+; serial/Serial_FSM.vhd                ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd                ;         ;
+; Circuit_Components.vhd               ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd               ;         ;
+; motor/Comparator.vhd                 ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Comparator.vhd                 ;         ;
+; motor/Counter.vhd                    ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Counter.vhd                    ;         ;
+; motor/OneStep_FSM.vhd                ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd                ;         ;
+; motor/Stepper_Motor.vhd              ; yes             ; User VHDL File  ; C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Stepper_Motor.vhd              ;         ;
++--------------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                                                                                         ;
++---------------------------------------------+---------------------------------------------------------------------------------------+
+; Resource                                    ; Usage                                                                                 ;
++---------------------------------------------+---------------------------------------------------------------------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 2315                                                                                  ;
+;                                             ;                                                                                       ;
+; Combinational ALUT usage for logic          ; 3736                                                                                  ;
+;     -- 7 input functions                    ; 1                                                                                     ;
+;     -- 6 input functions                    ; 891                                                                                   ;
+;     -- 5 input functions                    ; 38                                                                                    ;
+;     -- 4 input functions                    ; 31                                                                                    ;
+;     -- <=3 input functions                  ; 2775                                                                                  ;
+;                                             ;                                                                                       ;
+; Dedicated logic registers                   ; 162                                                                                   ;
+;                                             ;                                                                                       ;
+; I/O pins                                    ; 40                                                                                    ;
+;                                             ;                                                                                       ;
+; Total DSP Blocks                            ; 0                                                                                     ;
+;                                             ;                                                                                       ;
+; Maximum fan-out node                        ; Sensor_RAM:instantiate_sensor_ram|RAM_Counter:instantiate_ram_count|internal_count[0] ;
+; Maximum fan-out                             ; 322                                                                                   ;
+; Total fan-out                               ; 14196                                                                                 ;
+; Average fan-out                             ; 3.57                                                                                  ;
++---------------------------------------------+---------------------------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                                                         ;
++-----------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------+---------------------------+--------------+
+; Compilation Hierarchy Node                                      ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                   ; Entity Name               ; Library Name ;
++-----------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------+---------------------------+--------------+
+; |Circuit_Components                                             ; 3736 (260)          ; 162 (9)                   ; 0                 ; 0          ; 40   ; 0            ; |Circuit_Components                                                                                   ; Circuit_Components        ; work         ;
+;    |HCSR04:instantiate_hcsr04|                                  ; 211 (1)             ; 70 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04                                                         ; HCSR04                    ; work         ;
+;       |Calculator_Cm_Comparator:instantiate_calc_cm_compar|     ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Calculator_Cm_Comparator:instantiate_calc_cm_compar     ; Calculator_Cm_Comparator  ; work         ;
+;       |Calculator_Cm_Counter_One:instantiate_calc_cm_count_one| ; 12 (12)             ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Calculator_Cm_Counter_One:instantiate_calc_cm_count_one ; Calculator_Cm_Counter_One ; work         ;
+;       |Calculator_Cm_Counter_Two:instantiate_calc_cm_count_two| ; 9 (9)               ; 9 (9)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Calculator_Cm_Counter_Two:instantiate_calc_cm_count_two ; Calculator_Cm_Counter_Two ; work         ;
+;       |Calculator_Cm_FSM:instantiate_calc_cm_fsm|               ; 5 (5)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Calculator_Cm_FSM:instantiate_calc_cm_fsm               ; Calculator_Cm_FSM         ; work         ;
+;       |Distance_Calculator:instantiate_dist_calc|               ; 110 (110)           ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_Calculator:instantiate_dist_calc               ; Distance_Calculator       ; work         ;
+;       |Distance_Counter:instantiate_dist_count|                 ; 21 (21)             ; 21 (21)                   ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_Counter:instantiate_dist_count                 ; Distance_Counter          ; work         ;
+;       |Distance_Decoder:instantiate_dist_decoder|               ; 10 (10)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_Decoder:instantiate_dist_decoder               ; Distance_Decoder          ; work         ;
+;       |Distance_FSM:instaniate_dist_fsm|                        ; 7 (7)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_FSM:instaniate_dist_fsm                        ; Distance_FSM              ; work         ;
+;       |Sensor_Comparator:instantiate_sensor_compar|             ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Sensor_Comparator:instantiate_sensor_compar             ; Sensor_Comparator         ; work         ;
+;       |Sensor_Counter:instantiate_sensor_count|                 ; 22 (22)             ; 22 (22)                   ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Sensor_Counter:instantiate_sensor_count                 ; Sensor_Counter            ; work         ;
+;       |Sensor_FSM:instaniate_sensor_fsm|                        ; 5 (5)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|HCSR04:instantiate_hcsr04|Sensor_FSM:instaniate_sensor_fsm                        ; Sensor_FSM                ; work         ;
+;    |Sensor_RAM:instantiate_sensor_ram|                          ; 3162 (0)            ; 11 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_RAM:instantiate_sensor_ram                                                 ; Sensor_RAM                ; work         ;
+;       |RAM:instaniate_ram|                                      ; 3142 (3142)         ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram                              ; RAM                       ; work         ;
+;       |RAM_Counter:instantiate_ram_count|                       ; 8 (8)               ; 8 (8)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_RAM:instantiate_sensor_ram|RAM_Counter:instantiate_ram_count               ; RAM_Counter               ; work         ;
+;       |RAM_FSM:instaniate_ram_fsm|                              ; 12 (12)             ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm                      ; RAM_FSM                   ; work         ;
+;    |Sensor_Serial:instantiate_sensor_serial|                    ; 62 (1)              ; 44 (1)                    ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_Serial:instantiate_sensor_serial                                           ; Sensor_Serial             ; work         ;
+;       |Serial_Comparator:StartComp|                             ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:StartComp               ; Serial_Comparator         ; work         ;
+;       |Serial_Comparator:instantiate_serial_comp|               ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:instantiate_serial_comp ; Serial_Comparator         ; work         ;
+;       |Serial_Counter:StartCounter|                             ; 25 (25)             ; 25 (25)                   ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_Serial:instantiate_sensor_serial|Serial_Counter:StartCounter               ; Serial_Counter            ; work         ;
+;       |Serial_Counter:instantiate_serial_count|                 ; 13 (13)             ; 13 (13)                   ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_Serial:instantiate_sensor_serial|Serial_Counter:instantiate_serial_count   ; Serial_Counter            ; work         ;
+;       |Serial_FSM:instaniate_serial_fsm|                        ; 15 (15)             ; 5 (5)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Sensor_Serial:instantiate_sensor_serial|Serial_FSM:instaniate_serial_fsm          ; Serial_FSM                ; work         ;
+;    |Stepper_Motor:instantiate_motor|                            ; 41 (0)              ; 28 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Stepper_Motor:instantiate_motor                                                   ; Stepper_Motor             ; work         ;
+;       |COUNTER:Counter1|                                        ; 25 (25)             ; 25 (25)                   ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Stepper_Motor:instantiate_motor|COUNTER:Counter1                                  ; COUNTER                   ; work         ;
+;       |Comparator:Comparator1|                                  ; 5 (5)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Stepper_Motor:instantiate_motor|Comparator:Comparator1                            ; Comparator                ; work         ;
+;       |OneStep_FSM:FSM1|                                        ; 11 (11)             ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |Circuit_Components|Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1                                  ; OneStep_FSM               ; work         ;
++-----------------------------------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------------------------------------+---------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                                                                                  ;
++-------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------+
+; Latch Name                                                              ; Latch Enable Signal                                               ; Free of Timing Hazards ;
++-------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------+
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[0] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[1] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[2] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[3] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[4] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[5] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[6] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[7] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|data_out_signal[8] ; Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|Mux1 ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~0           ; rtl~0                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~18          ; rtl~1                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~36          ; rtl~2                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~54          ; rtl~3                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~72          ; rtl~4                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~90          ; rtl~5                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~108         ; rtl~6                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~126         ; rtl~7                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~144         ; rtl~8                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~162         ; rtl~9                                                             ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~180         ; rtl~10                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~198         ; rtl~11                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~216         ; rtl~12                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~234         ; rtl~13                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~252         ; rtl~14                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~270         ; rtl~15                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~288         ; rtl~16                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~360         ; rtl~17                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~432         ; rtl~18                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~504         ; rtl~19                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~306         ; rtl~20                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~378         ; rtl~21                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~450         ; rtl~22                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~522         ; rtl~23                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~324         ; rtl~24                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~396         ; rtl~25                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~468         ; rtl~26                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~540         ; rtl~27                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~342         ; rtl~28                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~414         ; rtl~29                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~486         ; rtl~30                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~558         ; rtl~31                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~9           ; rtl~32                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~27          ; rtl~33                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~45          ; rtl~34                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~63          ; rtl~35                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~81          ; rtl~36                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~99          ; rtl~37                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~117         ; rtl~38                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~135         ; rtl~39                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~153         ; rtl~40                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~171         ; rtl~41                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~189         ; rtl~42                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~207         ; rtl~43                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~225         ; rtl~44                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~243         ; rtl~45                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~261         ; rtl~46                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~279         ; rtl~47                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~297         ; rtl~48                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~369         ; rtl~49                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~441         ; rtl~50                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~513         ; rtl~51                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~315         ; rtl~52                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~387         ; rtl~53                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~459         ; rtl~54                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~531         ; rtl~55                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~333         ; rtl~56                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~405         ; rtl~57                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~477         ; rtl~58                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~549         ; rtl~59                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~351         ; rtl~60                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~423         ; rtl~61                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~495         ; rtl~62                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~567         ; rtl~63                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~576         ; rtl~64                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~864         ; rtl~65                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~585         ; rtl~66                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~873         ; rtl~67                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~648         ; rtl~68                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~936         ; rtl~69                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~657         ; rtl~70                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~945         ; rtl~71                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~720         ; rtl~72                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~1008        ; rtl~73                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~729         ; rtl~74                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~1017        ; rtl~75                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~792         ; rtl~76                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~1080        ; rtl~77                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~801         ; rtl~78                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~1089        ; rtl~79                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~594         ; rtl~80                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~882         ; rtl~81                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~603         ; rtl~82                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~891         ; rtl~83                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~666         ; rtl~84                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~954         ; rtl~85                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~675         ; rtl~86                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~963         ; rtl~87                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~738         ; rtl~88                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~1026        ; rtl~89                                                            ; yes                    ;
+; Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram|memory~747         ; rtl~90                                                            ; yes                    ;
+; Number of user-specified and inferred latches = 2321                    ;                                                                   ;                        ;
++-------------------------------------------------------------------------+-------------------------------------------------------------------+------------------------+
+Table restricted to first 100 entries. Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                            ;
++--------------------------------------------------------------------------------------+----------------------------------------+
+; Register name                                                                        ; Reason for Removal                     ;
++--------------------------------------------------------------------------------------+----------------------------------------+
+; HCSR04:instantiate_hcsr04|Calculator_Cm_FSM:instantiate_calc_cm_fsm|current_state[2] ; Stuck at GND due to stuck port data_in ;
+; HCSR04:instantiate_hcsr04|Sensor_FSM:instaniate_sensor_fsm|current_state[2]          ; Stuck at GND due to stuck port data_in ;
+; HCSR04:instantiate_hcsr04|Distance_FSM:instaniate_dist_fsm|current_state[2]          ; Stuck at GND due to stuck port data_in ;
+; Total Number of Removed Registers = 3                                                ;                                        ;
++--------------------------------------------------------------------------------------+----------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 162   ;
+; Number of registers using Synchronous Clear  ; 1     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 153   ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 85    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                                           ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                                                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------+
+; 5:1                ; 2 bits    ; 6 LEs         ; 6 LEs                ; 0 LEs                  ; No         ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_Decoder:instantiate_dist_decoder|display_out_ten[1] ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 12 LEs               ; 0 LEs                  ; No         ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_Decoder:instantiate_dist_decoder|display_out_ten[6] ;
+; 16:1               ; 2 bits    ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_Calculator:instantiate_dist_calc|distance_ten[1]    ;
+; 18:1               ; 2 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_Calculator:instantiate_dist_calc|distance_ten[3]    ;
+; 19:1               ; 2 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |Circuit_Components|HCSR04:instantiate_hcsr04|Distance_Calculator:instantiate_dist_calc|distance_ten[0]    ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+------------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |Circuit_Components ;
++----------------+-------+-----------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                      ;
++----------------+-------+-----------------------------------------------------------+
+; seven_seg      ; 7     ; Signed Integer                                            ;
+; measurement    ; 9     ; Signed Integer                                            ;
++----------------+-------+-----------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04 ;
++----------------+-------+-----------------------------------------------+
+; Parameter Name ; Value ; Type                                          ;
++----------------+-------+-----------------------------------------------+
+; segment        ; 7     ; Signed Integer                                ;
+; num_cm         ; 9     ; Signed Integer                                ;
++----------------+-------+-----------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Sensor_Counter:instantiate_sensor_count ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                  ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; cycles         ; 22    ; Signed Integer                                                                        ;
++----------------+-------+---------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Sensor_Comparator:instantiate_sensor_compar ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; cycles         ; 22    ; Signed Integer                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Distance_Counter:instantiate_dist_count ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                  ;
++----------------+-------+---------------------------------------------------------------------------------------+
+; cycles         ; 21    ; Signed Integer                                                                        ;
++----------------+-------+---------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Distance_Calculator:instantiate_dist_calc ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; cycles         ; 21    ; Signed Integer                                                                          ;
+; dist           ; 4     ; Signed Integer                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Distance_Decoder:instantiate_dist_decoder ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; dist           ; 4     ; Signed Integer                                                                          ;
+; segment        ; 7     ; Signed Integer                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Calculator_Cm_Counter_One:instantiate_calc_cm_count_one ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; cycles         ; 12    ; Signed Integer                                                                                        ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Calculator_Cm_Comparator:instantiate_calc_cm_compar ;
++----------------+-------+---------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                              ;
++----------------+-------+---------------------------------------------------------------------------------------------------+
+; cycles         ; 12    ; Signed Integer                                                                                    ;
++----------------+-------+---------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: HCSR04:instantiate_hcsr04|Calculator_Cm_Counter_Two:instantiate_calc_cm_count_two ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; cm             ; 9     ; Signed Integer                                                                                        ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram ;
++----------------+-------+-------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                  ;
++----------------+-------+-------------------------------------------------------+
+; measurement    ; 9     ; Signed Integer                                        ;
++----------------+-------+-------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm ;
++----------------+-------+----------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                             ;
++----------------+-------+----------------------------------------------------------------------------------+
+; num_dist       ; 9     ; Signed Integer                                                                   ;
++----------------+-------+----------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram|RAM_Counter:instantiate_ram_count ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; cnt            ; 8     ; Signed Integer                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram|RAM_Comparator:instantiate_ram_comp ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                      ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+; cnt            ; 8     ; Signed Integer                                                                            ;
++----------------+-------+-------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram ;
++----------------+-------+--------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                     ;
++----------------+-------+--------------------------------------------------------------------------+
+; num_dist       ; 9     ; Signed Integer                                                           ;
+; num_slots      ; 8     ; Signed Integer                                                           ;
++----------------+-------+--------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial ;
++----------------+-------+-------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                        ;
++----------------+-------+-------------------------------------------------------------+
+; measurement    ; 9     ; Signed Integer                                              ;
++----------------+-------+-------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_FSM:instaniate_serial_fsm ;
++----------------+-------+----------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                         ;
++----------------+-------+----------------------------------------------------------------------------------------------+
+; num_dist       ; 9     ; Signed Integer                                                                               ;
++----------------+-------+----------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_Counter:instantiate_serial_count ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+; cnt            ; 13    ; Signed Integer                                                                                      ;
++----------------+-------+-----------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:instantiate_serial_comp ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                                  ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+; cnt            ; 13    ; Signed Integer                                                                                        ;
++----------------+-------+-------------------------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:StartComp ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; cnt            ; 25    ; Signed Integer                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Sensor_Serial:instantiate_sensor_serial|Serial_Counter:StartCounter ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                                    ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+; cnt            ; 25    ; Signed Integer                                                                          ;
++----------------+-------+-----------------------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Stepper_Motor:instantiate_motor ;
++----------------+-------+-----------------------------------------------------+
+; Parameter Name ; Value ; Type                                                ;
++----------------+-------+-----------------------------------------------------+
+; n              ; 25    ; Signed Integer                                      ;
++----------------+-------+-----------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Stepper_Motor:instantiate_motor|COUNTER:Counter1 ;
++----------------+-------+----------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                 ;
++----------------+-------+----------------------------------------------------------------------+
+; n              ; 25    ; Signed Integer                                                       ;
++----------------+-------+----------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Stepper_Motor:instantiate_motor|Comparator:Comparator1 ;
++----------------+-------+----------------------------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                                       ;
++----------------+-------+----------------------------------------------------------------------------+
+; n              ; 25    ; Signed Integer                                                             ;
++----------------+-------+----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1"                                                                 ;
++---------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; Port          ; Type   ; Severity ; Details                                                                                                  ;
++---------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+; count_rst_fsm ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed. ;
++---------------+--------+----------+----------------------------------------------------------------------------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Stepper_Motor:instantiate_motor|Comparator:Comparator1" ;
++-------------+-------+----------+---------------------------------------------------+
+; Port        ; Type  ; Severity ; Details                                           ;
++-------------+-------+----------+---------------------------------------------------+
+; ref[22..18] ; Input ; Info     ; Stuck at VCC                                      ;
+; ref[14..11] ; Input ; Info     ; Stuck at VCC                                      ;
+; ref[10..7]  ; Input ; Info     ; Stuck at GND                                      ;
+; ref[5..0]   ; Input ; Info     ; Stuck at GND                                      ;
+; ref[24]     ; Input ; Info     ; Stuck at VCC                                      ;
+; ref[23]     ; Input ; Info     ; Stuck at GND                                      ;
+; ref[17]     ; Input ; Info     ; Stuck at GND                                      ;
+; ref[16]     ; Input ; Info     ; Stuck at VCC                                      ;
+; ref[15]     ; Input ; Info     ; Stuck at GND                                      ;
+; ref[6]      ; Input ; Info     ; Stuck at VCC                                      ;
++-------------+-------+----------+---------------------------------------------------+
+
+
++------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Stepper_Motor:instantiate_motor|COUNTER:Counter1" ;
++---------+-------+----------+-------------------------------------------------+
+; Port    ; Type  ; Severity ; Details                                         ;
++---------+-------+----------+-------------------------------------------------+
+; cntr_en ; Input ; Info     ; Stuck at VCC                                    ;
++---------+-------+----------+-------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Sensor_Serial:instantiate_sensor_serial|Serial_Counter:StartCounter" ;
++--------+-------+----------+---------------------------------------------------------------------+
+; Port   ; Type  ; Severity ; Details                                                             ;
++--------+-------+----------+---------------------------------------------------------------------+
+; enable ; Input ; Info     ; Stuck at VCC                                                        ;
++--------+-------+----------+---------------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:StartComp" ;
++-------------------+-------+----------+----------------------------------------------------------+
+; Port              ; Type  ; Severity ; Details                                                  ;
++-------------------+-------+----------+----------------------------------------------------------+
+; reference[22..21] ; Input ; Info     ; Stuck at VCC                                             ;
+; reference[24..23] ; Input ; Info     ; Stuck at GND                                             ;
+; reference[20..0]  ; Input ; Info     ; Stuck at GND                                             ;
++-------------------+-------+----------+----------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:instantiate_serial_comp" ;
++-----------------+-------+----------+--------------------------------------------------------------------------+
+; Port            ; Type  ; Severity ; Details                                                                  ;
++-----------------+-------+----------+--------------------------------------------------------------------------+
+; reference[4..3] ; Input ; Info     ; Stuck at VCC                                                             ;
+; reference[9..7] ; Input ; Info     ; Stuck at GND                                                             ;
+; reference[2..1] ; Input ; Info     ; Stuck at GND                                                             ;
+; reference[12]   ; Input ; Info     ; Stuck at VCC                                                             ;
+; reference[11]   ; Input ; Info     ; Stuck at GND                                                             ;
+; reference[10]   ; Input ; Info     ; Stuck at VCC                                                             ;
+; reference[6]    ; Input ; Info     ; Stuck at VCC                                                             ;
+; reference[5]    ; Input ; Info     ; Stuck at GND                                                             ;
+; reference[0]    ; Input ; Info     ; Stuck at VCC                                                             ;
++-----------------+-------+----------+--------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "Sensor_RAM:instantiate_sensor_ram|RAM_Comparator:instantiate_ram_comp" ;
++-----------+-------+----------+--------------------------------------------------------------------+
+; Port      ; Type  ; Severity ; Details                                                            ;
++-----------+-------+----------+--------------------------------------------------------------------+
+; reference ; Input ; Info     ; Stuck at VCC                                                       ;
++-----------+-------+----------+--------------------------------------------------------------------+
+
+
++-----------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "HCSR04:instantiate_hcsr04|Calculator_Cm_Comparator:instantiate_calc_cm_compar" ;
++-----------------+-------+----------+----------------------------------------------------------------------+
+; Port            ; Type  ; Severity ; Details                                                              ;
++-----------------+-------+----------+----------------------------------------------------------------------+
+; reference[9..8] ; Input ; Info     ; Stuck at VCC                                                         ;
+; reference[1..0] ; Input ; Info     ; Stuck at GND                                                         ;
+; reference[11]   ; Input ; Info     ; Stuck at VCC                                                         ;
+; reference[10]   ; Input ; Info     ; Stuck at GND                                                         ;
+; reference[7]    ; Input ; Info     ; Stuck at GND                                                         ;
+; reference[6]    ; Input ; Info     ; Stuck at VCC                                                         ;
+; reference[5]    ; Input ; Info     ; Stuck at GND                                                         ;
+; reference[4]    ; Input ; Info     ; Stuck at VCC                                                         ;
+; reference[3]    ; Input ; Info     ; Stuck at GND                                                         ;
+; reference[2]    ; Input ; Info     ; Stuck at VCC                                                         ;
++-----------------+-------+----------+----------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "HCSR04:instantiate_hcsr04|Sensor_Comparator:instantiate_sensor_compar" ;
++-----------------------+-------+----------+--------------------------------------------------------+
+; Port                  ; Type  ; Severity ; Details                                                ;
++-----------------------+-------+----------+--------------------------------------------------------+
+; reference_one[8..4]   ; Input ; Info     ; Stuck at VCC                                           ;
+; reference_one[21..9]  ; Input ; Info     ; Stuck at GND                                           ;
+; reference_one[1..0]   ; Input ; Info     ; Stuck at GND                                           ;
+; reference_one[3]      ; Input ; Info     ; Stuck at GND                                           ;
+; reference_one[2]      ; Input ; Info     ; Stuck at VCC                                           ;
+; reference_two[19..18] ; Input ; Info     ; Stuck at VCC                                           ;
+; reference_two[16..14] ; Input ; Info     ; Stuck at VCC                                           ;
+; reference_two[10..9]  ; Input ; Info     ; Stuck at VCC                                           ;
+; reference_two[7..6]   ; Input ; Info     ; Stuck at VCC                                           ;
+; reference_two[13..11] ; Input ; Info     ; Stuck at GND                                           ;
+; reference_two[5..0]   ; Input ; Info     ; Stuck at GND                                           ;
+; reference_two[21]     ; Input ; Info     ; Stuck at VCC                                           ;
+; reference_two[20]     ; Input ; Info     ; Stuck at GND                                           ;
+; reference_two[17]     ; Input ; Info     ; Stuck at GND                                           ;
+; reference_two[8]      ; Input ; Info     ; Stuck at GND                                           ;
++-----------------------+-------+----------+--------------------------------------------------------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_ff             ; 162                         ;
+;     CLR               ; 67                          ;
+;     CLR SCLR          ; 1                           ;
+;     ENA CLR           ; 85                          ;
+;     plain             ; 9                           ;
+; arriav_lcell_comb     ; 3742                        ;
+;     arith             ; 127                         ;
+;         1 data inputs ; 119                         ;
+;         2 data inputs ; 8                           ;
+;     extend            ; 1                           ;
+;         7 data inputs ; 1                           ;
+;     normal            ; 3614                        ;
+;         0 data inputs ; 2                           ;
+;         1 data inputs ; 12                          ;
+;         2 data inputs ; 285                         ;
+;         3 data inputs ; 2355                        ;
+;         4 data inputs ; 31                          ;
+;         5 data inputs ; 38                          ;
+;         6 data inputs ; 891                         ;
+; boundary_port         ; 40                          ;
+;                       ;                             ;
+; Max LUT depth         ; 7.00                        ;
+; Average LUT depth     ; 4.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:06     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+    Info: Processing started: Fri Dec 10 19:43:20 2021
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Final_Project -c Final_Project
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/calculator_cm_comparator.vhd
+    Info (12022): Found design unit 1: Calculator_Cm_Comparator-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Comparator.vhd Line: 14
+    Info (12023): Found entity 1: Calculator_Cm_Comparator File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Comparator.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/calculator_cm_counter_one.vhd
+    Info (12022): Found design unit 1: Calculator_Cm_Counter_One-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Counter_One.vhd Line: 15
+    Info (12023): Found entity 1: Calculator_Cm_Counter_One File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Counter_One.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/calculator_cm_counter_two.vhd
+    Info (12022): Found design unit 1: Calculator_Cm_Counter_Two-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Counter_Two.vhd Line: 15
+    Info (12023): Found entity 1: Calculator_Cm_Counter_Two File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Counter_Two.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/calculator_cm_fsm.vhd
+    Info (12022): Found design unit 1: Calculator_Cm_FSM-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd Line: 17
+    Info (12023): Found entity 1: Calculator_Cm_FSM File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/distance_calculator.vhd
+    Info (12022): Found design unit 1: Distance_Calculator-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Calculator.vhd Line: 15
+    Info (12023): Found entity 1: Distance_Calculator File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Calculator.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/distance_counter.vhd
+    Info (12022): Found design unit 1: Distance_Counter-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Counter.vhd Line: 15
+    Info (12023): Found entity 1: Distance_Counter File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Counter.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/distance_decoder.vhd
+    Info (12022): Found design unit 1: Distance_Decoder-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Decoder.vhd Line: 17
+    Info (12023): Found entity 1: Distance_Decoder File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_Decoder.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/distance_fsm.vhd
+    Info (12022): Found design unit 1: Distance_FSM-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 14
+    Info (12023): Found entity 1: Distance_FSM File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/hcsr04.vhd
+    Info (12022): Found design unit 1: HCSR04-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 22
+    Info (12023): Found entity 1: HCSR04 File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/sensor_comparator.vhd
+    Info (12022): Found design unit 1: Sensor_Comparator-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_Comparator.vhd Line: 15
+    Info (12023): Found entity 1: Sensor_Comparator File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_Comparator.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/sensor_counter.vhd
+    Info (12022): Found design unit 1: Sensor_Counter-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_Counter.vhd Line: 15
+    Info (12023): Found entity 1: Sensor_Counter File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_Counter.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file sensor/sensor_fsm.vhd
+    Info (12022): Found design unit 1: Sensor_FSM-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 17
+    Info (12023): Found entity 1: Sensor_FSM File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file ram/ram.vhd
+    Info (12022): Found design unit 1: RAM-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 19
+    Info (12023): Found entity 1: RAM File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 7
+Info (12021): Found 2 design units, including 1 entities, in source file ram/ram_comparator.vhd
+    Info (12022): Found design unit 1: RAM_Comparator-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_Comparator.vhd Line: 14
+    Info (12023): Found entity 1: RAM_Comparator File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_Comparator.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file ram/ram_counter.vhd
+    Info (12022): Found design unit 1: RAM_Counter-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_Counter.vhd Line: 15
+    Info (12023): Found entity 1: RAM_Counter File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_Counter.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file ram/ram_fsm.vhd
+    Info (12022): Found design unit 1: RAM_FSM-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 19
+    Info (12023): Found entity 1: RAM_FSM File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file ram/sensor_ram.vhd
+    Info (12022): Found design unit 1: Sensor_RAM-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/Sensor_RAM.vhd Line: 16
+    Info (12023): Found entity 1: Sensor_RAM File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/Sensor_RAM.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file serial/sensor_serial.vhd
+    Info (12022): Found design unit 1: Sensor_Serial-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd Line: 16
+    Info (12023): Found entity 1: Sensor_Serial File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file serial/serial_comparator.vhd
+    Info (12022): Found design unit 1: Serial_Comparator-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_Comparator.vhd Line: 14
+    Info (12023): Found entity 1: Serial_Comparator File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_Comparator.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file serial/serial_counter.vhd
+    Info (12022): Found design unit 1: Serial_Counter-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_Counter.vhd Line: 15
+    Info (12023): Found entity 1: Serial_Counter File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_Counter.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file serial/serial_fsm.vhd
+    Info (12022): Found design unit 1: Serial_FSM-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 20
+    Info (12023): Found entity 1: Serial_FSM File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file circuit_components.vhd
+    Info (12022): Found design unit 1: Circuit_Components-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 25
+    Info (12023): Found entity 1: Circuit_Components File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file circuit_components_tb.vhd
+    Info (12022): Found design unit 1: Circuit_Components_tb-behave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components_tb.vhd Line: 8
+    Info (12023): Found entity 1: Circuit_Components_tb File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components_tb.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file motor/comparator.vhd
+    Info (12022): Found design unit 1: Comparator-ComparatorBehave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Comparator.vhd Line: 14
+    Info (12023): Found entity 1: Comparator File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Comparator.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file motor/counter.vhd
+    Info (12022): Found design unit 1: COUNTER-CounterBehave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Counter.vhd Line: 17
+    Info (12023): Found entity 1: COUNTER File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Counter.vhd Line: 6
+Info (12021): Found 2 design units, including 1 entities, in source file motor/onestep_fsm.vhd
+    Info (12022): Found design unit 1: OneStep_FSM-One_StepBehave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 19
+    Info (12023): Found entity 1: OneStep_FSM File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 5
+Info (12021): Found 2 design units, including 1 entities, in source file motor/stepper_motor.vhd
+    Info (12022): Found design unit 1: Stepper_Motor-OneStepBehave File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Stepper_Motor.vhd Line: 16
+    Info (12023): Found entity 1: Stepper_Motor File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Stepper_Motor.vhd Line: 4
+Info (12127): Elaborating entity "Circuit_Components" for the top level hierarchy
+Info (12128): Elaborating entity "HCSR04" for hierarchy "HCSR04:instantiate_hcsr04" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 83
+Warning (10540): VHDL Signal Declaration warning at HCSR04.vhd(149): used explicit default value for signal "sen_ref_one" because signal was never assigned a value File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 149
+Warning (10540): VHDL Signal Declaration warning at HCSR04.vhd(150): used explicit default value for signal "sen_ref_two" because signal was never assigned a value File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 150
+Warning (10540): VHDL Signal Declaration warning at HCSR04.vhd(166): used explicit default value for signal "calc_ref" because signal was never assigned a value File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 166
+Info (12128): Elaborating entity "Sensor_FSM" for hierarchy "HCSR04:instantiate_hcsr04|Sensor_FSM:instaniate_sensor_fsm" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 170
+Warning (10631): VHDL Process Statement warning at Sensor_FSM.vhd(36): inferring latch(es) for signal or variable "next_state", which holds its previous value in one or more paths through the process File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 36
+Info (10041): Inferred latch for "next_state[0]" at Sensor_FSM.vhd(36) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 36
+Info (10041): Inferred latch for "next_state[1]" at Sensor_FSM.vhd(36) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 36
+Info (10041): Inferred latch for "next_state[2]" at Sensor_FSM.vhd(36) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 36
+Info (12128): Elaborating entity "Sensor_Counter" for hierarchy "HCSR04:instantiate_hcsr04|Sensor_Counter:instantiate_sensor_count" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 181
+Info (12128): Elaborating entity "Sensor_Comparator" for hierarchy "HCSR04:instantiate_hcsr04|Sensor_Comparator:instantiate_sensor_compar" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 188
+Warning (10492): VHDL Process Statement warning at Sensor_Comparator.vhd(22): signal "reference_one" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_Comparator.vhd Line: 22
+Warning (10492): VHDL Process Statement warning at Sensor_Comparator.vhd(22): signal "reference_two" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_Comparator.vhd Line: 22
+Info (12128): Elaborating entity "Distance_FSM" for hierarchy "HCSR04:instantiate_hcsr04|Distance_FSM:instaniate_dist_fsm" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 197
+Warning (10631): VHDL Process Statement warning at Distance_FSM.vhd(34): inferring latch(es) for signal or variable "next_state", which holds its previous value in one or more paths through the process File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 34
+Info (10041): Inferred latch for "next_state[0]" at Distance_FSM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 34
+Info (10041): Inferred latch for "next_state[1]" at Distance_FSM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 34
+Info (10041): Inferred latch for "next_state[2]" at Distance_FSM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 34
+Info (12128): Elaborating entity "Distance_Counter" for hierarchy "HCSR04:instantiate_hcsr04|Distance_Counter:instantiate_dist_count" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 204
+Info (12128): Elaborating entity "Distance_Calculator" for hierarchy "HCSR04:instantiate_hcsr04|Distance_Calculator:instantiate_dist_calc" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 211
+Info (12128): Elaborating entity "Distance_Decoder" for hierarchy "HCSR04:instantiate_hcsr04|Distance_Decoder:instantiate_dist_decoder" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 218
+Info (12128): Elaborating entity "Calculator_Cm_FSM" for hierarchy "HCSR04:instantiate_hcsr04|Calculator_Cm_FSM:instantiate_calc_cm_fsm" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 229
+Warning (10631): VHDL Process Statement warning at Calculator_Cm_FSM.vhd(37): inferring latch(es) for signal or variable "next_state", which holds its previous value in one or more paths through the process File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd Line: 37
+Info (10041): Inferred latch for "next_state[0]" at Calculator_Cm_FSM.vhd(37) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd Line: 37
+Info (10041): Inferred latch for "next_state[1]" at Calculator_Cm_FSM.vhd(37) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd Line: 37
+Info (10041): Inferred latch for "next_state[2]" at Calculator_Cm_FSM.vhd(37) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd Line: 37
+Info (12128): Elaborating entity "Calculator_Cm_Counter_One" for hierarchy "HCSR04:instantiate_hcsr04|Calculator_Cm_Counter_One:instantiate_calc_cm_count_one" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 239
+Info (12128): Elaborating entity "Calculator_Cm_Comparator" for hierarchy "HCSR04:instantiate_hcsr04|Calculator_Cm_Comparator:instantiate_calc_cm_compar" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 246
+Warning (10492): VHDL Process Statement warning at Calculator_Cm_Comparator.vhd(21): signal "reference" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_Comparator.vhd Line: 21
+Info (12128): Elaborating entity "Calculator_Cm_Counter_Two" for hierarchy "HCSR04:instantiate_hcsr04|Calculator_Cm_Counter_Two:instantiate_calc_cm_count_two" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/HCSR04.vhd Line: 252
+Info (12128): Elaborating entity "Sensor_RAM" for hierarchy "Sensor_RAM:instantiate_sensor_ram" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 105
+Warning (10540): VHDL Signal Declaration warning at Sensor_RAM.vhd(68): used explicit default value for signal "ref" because signal was never assigned a value File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/Sensor_RAM.vhd Line: 68
+Info (12128): Elaborating entity "RAM_FSM" for hierarchy "Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/Sensor_RAM.vhd Line: 74
+Warning (10631): VHDL Process Statement warning at RAM_FSM.vhd(39): inferring latch(es) for signal or variable "next_state", which holds its previous value in one or more paths through the process File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 39
+Info (10041): Inferred latch for "next_state[0]" at RAM_FSM.vhd(39) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 39
+Info (10041): Inferred latch for "next_state[1]" at RAM_FSM.vhd(39) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 39
+Info (10041): Inferred latch for "next_state[2]" at RAM_FSM.vhd(39) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 39
+Info (12128): Elaborating entity "RAM_Counter" for hierarchy "Sensor_RAM:instantiate_sensor_ram|RAM_Counter:instantiate_ram_count" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/Sensor_RAM.vhd Line: 85
+Info (12128): Elaborating entity "RAM_Comparator" for hierarchy "Sensor_RAM:instantiate_sensor_ram|RAM_Comparator:instantiate_ram_comp" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/Sensor_RAM.vhd Line: 92
+Warning (10492): VHDL Process Statement warning at RAM_Comparator.vhd(21): signal "reference" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_Comparator.vhd Line: 21
+Info (12128): Elaborating entity "RAM" for hierarchy "Sensor_RAM:instantiate_sensor_ram|RAM:instaniate_ram" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/Sensor_RAM.vhd Line: 98
+Warning (10492): VHDL Process Statement warning at RAM.vhd(39): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 39
+Warning (10492): VHDL Process Statement warning at RAM.vhd(42): signal "memory" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 42
+Warning (10492): VHDL Process Statement warning at RAM.vhd(45): signal "data_out_signal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 45
+Warning (10631): VHDL Process Statement warning at RAM.vhd(34): inferring latch(es) for signal or variable "data_out_signal", which holds its previous value in one or more paths through the process File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[0]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[1]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[2]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[3]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[4]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[5]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[6]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[7]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (10041): Inferred latch for "data_out_signal[8]" at RAM.vhd(34) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM.vhd Line: 34
+Info (12128): Elaborating entity "Sensor_Serial" for hierarchy "Sensor_Serial:instantiate_sensor_serial" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 113
+Warning (10540): VHDL Signal Declaration warning at Sensor_Serial.vhd(59): used explicit default value for signal "ref" because signal was never assigned a value File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd Line: 59
+Info (12128): Elaborating entity "Serial_FSM" for hierarchy "Sensor_Serial:instantiate_sensor_serial|Serial_FSM:instaniate_serial_fsm" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd Line: 66
+Warning (10492): VHDL Process Statement warning at Serial_FSM.vhd(75): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 75
+Warning (10492): VHDL Process Statement warning at Serial_FSM.vhd(93): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 93
+Warning (10492): VHDL Process Statement warning at Serial_FSM.vhd(111): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 111
+Warning (10492): VHDL Process Statement warning at Serial_FSM.vhd(129): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 129
+Warning (10492): VHDL Process Statement warning at Serial_FSM.vhd(147): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 147
+Warning (10492): VHDL Process Statement warning at Serial_FSM.vhd(165): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 165
+Warning (10492): VHDL Process Statement warning at Serial_FSM.vhd(183): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 183
+Warning (10492): VHDL Process Statement warning at Serial_FSM.vhd(201): signal "data_in" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_FSM.vhd Line: 201
+Info (12128): Elaborating entity "Serial_Counter" for hierarchy "Sensor_Serial:instantiate_sensor_serial|Serial_Counter:instantiate_serial_count" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd Line: 78
+Info (12128): Elaborating entity "Serial_Comparator" for hierarchy "Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:instantiate_serial_comp" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd Line: 85
+Warning (10492): VHDL Process Statement warning at Serial_Comparator.vhd(21): signal "reference" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_Comparator.vhd Line: 21
+Info (12128): Elaborating entity "Serial_Comparator" for hierarchy "Sensor_Serial:instantiate_sensor_serial|Serial_Comparator:StartComp" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd Line: 102
+Warning (10492): VHDL Process Statement warning at Serial_Comparator.vhd(21): signal "reference" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Serial_Comparator.vhd Line: 21
+Info (12128): Elaborating entity "Serial_Counter" for hierarchy "Sensor_Serial:instantiate_sensor_serial|Serial_Counter:StartCounter" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/serial/Sensor_Serial.vhd Line: 109
+Info (12128): Elaborating entity "Stepper_Motor" for hierarchy "Stepper_Motor:instantiate_motor" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 121
+Info (12128): Elaborating entity "COUNTER" for hierarchy "Stepper_Motor:instantiate_motor|COUNTER:Counter1" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Stepper_Motor.vhd Line: 79
+Info (12128): Elaborating entity "Comparator" for hierarchy "Stepper_Motor:instantiate_motor|Comparator:Comparator1" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Stepper_Motor.vhd Line: 84
+Info (12128): Elaborating entity "OneStep_FSM" for hierarchy "Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1" File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/Stepper_Motor.vhd Line: 88
+Warning (10631): VHDL Process Statement warning at OneStep_FSM.vhd(25): inferring latch(es) for signal or variable "next_state", which holds its previous value in one or more paths through the process File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+Warning (10631): VHDL Process Statement warning at OneStep_FSM.vhd(25): inferring latch(es) for signal or variable "count_rst_fsm", which holds its previous value in one or more paths through the process File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+Info (10041): Inferred latch for "count_rst_fsm" at OneStep_FSM.vhd(25) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+Info (10041): Inferred latch for "next_state[0]" at OneStep_FSM.vhd(25) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+Info (10041): Inferred latch for "next_state[1]" at OneStep_FSM.vhd(25) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+Info (10041): Inferred latch for "next_state[2]" at OneStep_FSM.vhd(25) File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+Warning (19016): Clock multiplexers are found and protected
+    Warning (19017): Found clock multiplexer HCSR04:instantiate_hcsr04|Sensor_FSM:instaniate_sensor_fsm|Mux1 File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 39
+Warning (14026): LATCH primitive "HCSR04:instantiate_hcsr04|Sensor_FSM:instaniate_sensor_fsm|next_state[1]" is permanently enabled File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 36
+Warning (14026): LATCH primitive "HCSR04:instantiate_hcsr04|Sensor_FSM:instaniate_sensor_fsm|next_state[0]" is permanently enabled File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Sensor_FSM.vhd Line: 36
+Warning (14026): LATCH primitive "HCSR04:instantiate_hcsr04|Calculator_Cm_FSM:instantiate_calc_cm_fsm|next_state[1]" is permanently enabled File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd Line: 37
+Warning (14026): LATCH primitive "HCSR04:instantiate_hcsr04|Calculator_Cm_FSM:instantiate_calc_cm_fsm|next_state[0]" is permanently enabled File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Calculator_Cm_FSM.vhd Line: 37
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Warning (13012): Latch Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1|next_state[2] has unsafe behavior File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1|current_state[2] File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 120
+Warning (13012): Latch Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1|next_state[1] has unsafe behavior File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1|current_state[2] File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 120
+Warning (13012): Latch Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1|next_state[0] has unsafe behavior File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 25
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Stepper_Motor:instantiate_motor|OneStep_FSM:FSM1|current_state[2] File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/motor/OneStep_FSM.vhd Line: 120
+Warning (13012): Latch HCSR04:instantiate_hcsr04|Distance_FSM:instaniate_dist_fsm|next_state[1] has unsafe behavior File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 34
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal HCSR04:instantiate_hcsr04|Distance_FSM:instaniate_dist_fsm|current_state[0] File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 25
+Warning (13012): Latch HCSR04:instantiate_hcsr04|Distance_FSM:instaniate_dist_fsm|next_state[0] has unsafe behavior File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 34
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal HCSR04:instantiate_hcsr04|Distance_FSM:instaniate_dist_fsm|current_state[1] File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/sensor/Distance_FSM.vhd Line: 25
+Warning (13012): Latch Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|next_state[2] has unsafe behavior File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 39
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|current_state[2] File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 30
+Warning (13012): Latch Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|next_state[1] has unsafe behavior File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 39
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|current_state[2] File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 30
+Warning (13012): Latch Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|next_state[0] has unsafe behavior File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 39
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal Sensor_RAM:instantiate_sensor_ram|RAM_FSM:instaniate_ram_fsm|current_state[2] File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/ram/RAM_FSM.vhd Line: 30
+Warning (13024): Output pins are stuck at VCC or GND
+    Warning (13410): Pin "dis_one[0]" is stuck at VCC File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 12
+    Warning (13410): Pin "dis_one[1]" is stuck at GND File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 12
+    Warning (13410): Pin "dis_one[2]" is stuck at GND File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 12
+    Warning (13410): Pin "dis_one[3]" is stuck at GND File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 12
+    Warning (13410): Pin "dis_one[4]" is stuck at GND File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 12
+    Warning (13410): Pin "dis_one[5]" is stuck at GND File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 12
+    Warning (13410): Pin "dis_one[6]" is stuck at GND File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 12
+    Warning (13410): Pin "dis_hundred[1]" is stuck at VCC File: C:/Users/jrurs/OneDrive - North Central College/NCC/Inside School/Engineering Classes/FPGA Design (ELEC 470)/Final Project/Circuit_Components.vhd Line: 14
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 3793 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 3 input pins
+    Info (21059): Implemented 37 output pins
+    Info (21061): Implemented 3753 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 62 warnings
+    Info: Peak virtual memory: 4845 megabytes
+    Info: Processing ended: Fri Dec 10 19:43:41 2021
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:39
+
+

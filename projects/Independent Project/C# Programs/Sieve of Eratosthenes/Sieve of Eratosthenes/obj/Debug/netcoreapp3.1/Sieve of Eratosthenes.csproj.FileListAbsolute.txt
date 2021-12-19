@@ -1,0 +1,26 @@
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.exe
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.deps.json
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.runtimeconfig.json
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.runtimeconfig.dev.json
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.dll
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.pdb
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.csprojAssemblyReference.cache
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.AssemblyInfoInputs.cache
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.AssemblyInfo.cs
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.dll
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.pdb
+C:\Users\jrurs\source\repos\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.genruntimeconfig.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.exe
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.deps.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.runtimeconfig.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.runtimeconfig.dev.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\Sieve of Eratosthenes.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.csprojAssemblyReference.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.AssemblyInfoInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.AssemblyInfo.cs
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Sieve of Eratosthenes\Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\Sieve of Eratosthenes.genruntimeconfig.cache

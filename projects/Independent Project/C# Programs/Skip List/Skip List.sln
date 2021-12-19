@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skip List", "Skip List\Skip List.csproj", "{72C87010-BE22-41DA-A523-033D0C6C9FD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72C87010-BE22-41DA-A523-033D0C6C9FD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C87010-BE22-41DA-A523-033D0C6C9FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C87010-BE22-41DA-A523-033D0C6C9FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C87010-BE22-41DA-A523-033D0C6C9FD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F55EF8AC-5419-47A5-B7E9-56855B5AB6A3}
+	EndGlobalSection
+EndGlobal

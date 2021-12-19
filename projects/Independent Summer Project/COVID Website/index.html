@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bayes Calculator</title>
+
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Naive Bayes Calculator</h1>
+            <ul class="tabs">
+                <li class="tab is-active">
+                    <a data-switcher data-tab="1">COVID-19</a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="2">Math</a>
+                </li>
+                <li class="tab">
+                    <a data-switcher data-tab="3">Extra</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pages">
+            <div class="page is-active" data-page="1">
+                <h1>Bayes Theorem Calculator</h1>
+                <p>Based on various attributes, a Naive Bayes classifier can predict the probability of a dependent variable, such as testing positive for COVID-19. Although this algorithm is being performed on categorical values, it can also work on continuous values as well. Naive Bayes is a wonderful algorithm for solving many classification problems; furthermore, it's relatively easy to understand and implement compared to other classification algorithms. Now, fill out the user input fields and find out your probability of testing positive or negative for COVID-19! </p>
+                <p>This example of Naive Bayes uses a dataset that contains exactly 1999 patients. Each patient was asked about these five things and whether they were infected with COVID-19. </p>
+                <h3>Fever Temperature (°F):</h3>
+                <input type="text" id="n1" placeholder="e.g. 98"/><br/><br/>
+                <h3>Body Pain ("true" or "false"): </h3>
+                <input type="text" id="n2" placeholder="e.g. false"/><br/><br/>
+                <h3>Age (# of Years):</h3>
+                <input type="text" id="n3" placeholder="e.g. 35"/><br/><br/>
+                <h3>Runny Nose ("true" or "false"):</h3>
+                <input type="text" id="n4" placeholder="e.g. true"/><br/><br/>
+                <h3>Difficulty Breathing ("little", "moderate", or "severe"):</h3>
+                <input type="text" id="n5" placeholder="e.g. moderate"/><br/><br/>
+                <button onclick="Main();">Click to Output Probabilities</button><br/><br/>
+                <h3>Probability for Testing Positive (%):</h3>
+                <input type="text" id="result1"/><br/><br/>
+                <h3>Probability for Testing Negative (%):</h3>
+                <input type="text" id="result2"/><br/><br/>
+                
+            </div>
+            <div class="page" data-page="2">
+                <h1>How Naive Bayes Works</h1>
+                <p>To understand the algorithm, it is best to go over an example of performing Naive Bayes on a dataset. By looking at an example, you will have an easier time implementing the algorithm. However, before going over an example, let's look at the Naive Bayes equation. Below is an the equation and the meaning of the terms.</p>
+                <div class="equation">
+                    <h1>P(A|C) = P(C|A)P(A) / P(C)</h1>
+                </div>
+                <dl>
+                    <dd>P(A|C): "Posterior Probability" or the probability of 'A' occuring given the evidence 'C' has alrady occured.</dd>
+                    <dd>P(C|A): "Likelihood" or the probability of 'C' occuring given the evidence 'A' has already occured.</dd>
+                    <dd>P(A): "Prior Probability" or the probabilty of 'A' occuring.</dd>
+                    <dd>P(C): "Normalizing Constant" or the probability of 'C' occuring.</dd>   
+                </dl>
+                <hr>
+                <p><strong>Example:</strong> From the goft dataset below, use Naive Bayes to determine the probabilites of playing and not playing golf given that the outlook is sunny, temperature is cool, humidity is high, and windy is strong.</p>
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>Outlook</th>
+                            <th>Temperature</th>
+                            <th>Humidity</th>
+                            <th>Windy</th>
+                            <th>Play</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>sunny</td>
+                            <td>hot</td>
+                            <td>high</td>
+                            <td>false</td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td>sunny</td>
+                            <td>hot</td>
+                            <td>high</td>
+                            <td>true</td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td>overcast</td>
+                            <td>hot</td>
+                            <td>high</td>
+                            <td>false</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>rainy</td>
+                            <td>mild</td>
+                            <td>high</td>
+                            <td>false</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>rainy</td>
+                            <td>cool</td>
+                            <td>normal</td>
+                            <td>false</td>
+                            <td>yes</td>
+                        </tr>
+                         <tr>
+                            <td>rainy</td>
+                            <td>cool</td>
+                            <td>normal</td>
+                            <td>true</td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td>overcast</td>
+                            <td>cool</td>
+                            <td>normal</td>
+                            <td>true</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>sunny</td>
+                            <td>mild</td>
+                            <td>high</td>
+                            <td>false</td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td>sunny</td>
+                            <td>cool</td>
+                            <td>normal</td>
+                            <td>false</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>rainy</td>
+                            <td>mild</td>
+                            <td>normal</td>
+                            <td>false</td>
+                            <td>yes</td>
+                        </tr>
+                         <tr>
+                            <td>sunny</td>
+                            <td>mild</td>
+                            <td>normal</td>
+                            <td>true</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>overcast</td>
+                            <td>mild</td>
+                            <td>high</td>
+                            <td>true</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>overcast</td>
+                            <td>hot</td>
+                            <td>normal</td>
+                            <td>false</td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td>rainy</td>
+                            <td>mild</td>
+                            <td>high</td>
+                            <td>true</td>
+                            <td>no</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <dl>  
+                    <dt><u>STEP 1</u>: First, let's find the prior probability, P(A),</dt>
+                        <dd>P(Play = "yes") = 9/14</dd>
+                        <dd>P(Play = "no") = 5/14</dd>
+                        <dd>Just count the number of "yes" and "no" values within the class attribute, "Play", and divide those counts by the number of total values.</dd>
+                    <dt><u>STEP 2</u>: Next, find the likelihood of playing golf, P(C|A),</dt>
+                        <dd>P(Outlook = "sunny" | Play = "yes") = 2/9</dd>
+                        <dd>P(Temperature = "cool" | Play = "yes") = 3/9</dd>
+                        <dd>P(Humidity = "high" | Play = "yes") = 3/9</dd>
+                        <dd>P(Windy = "strong" | Play = "yes") = 3/9</dd>
+                        <dd>For each attribute, count the number of times "yes" shows in the class attribute.</dd>
+                    <dt><u>STEP 3</u>: Similarly, find the likelihood of not playing golf, P(C|A),</dt>
+                        <dd>P(Outlook = "sunny" | Play = "no") = 3/5</dd>
+                        <dd>P(Temperature = "cool" | Play = "no") = 1/5</dd>
+                        <dd>P(Humidity = "high" | Play = "no") = 4/5</dd>
+                        <dd>P(Windy = "strong" | Play = "no") = 3/5</dd>
+                        <dd>For each attribute, count the number of times "no" shows in the class attribute.</dd>
+                    <dt><u>STEP 4</u>: Now, we combine the three previous steps, P(X|C)*P(C),</dt>
+                        <dd>P(attributes | Play = "yes") = (2/9)*(3/9)*(3/9)*(3/9)*(9/14) = 0.0053</dd>
+                        <dd>P(attributes | Play = "no") = (3/5)*(1/5)*(4/5)*(3/5)*(5/14) = 0.0206</dd>
+                        <dd>We are just multiplying all the values we got from the "yes"'s and "No"'s in the previous steps.</dd>
+                    <dt><u>STEP 5</u>: Lastly, we need to find the normalizing constant, P(C),</dt>
+                        <dd>P(C) = P(OutLook = "sunny")*P(Temperature = "cool")*P(Humidity = "high")*P(Wind = "strong")</dd>
+                        <dd>P(C) = (5/14)*(4/14)*(7/14)*(6/14)</dd>
+                        <dd>P(C) = 0.02186</dd>
+                        <dd>Simply count the number of times each attribute shows up, and divide those counts by the number of total values. Then multiply all the  probabilities together to get P(C).</dd>
+                    <dt><u>STEP 6</u>: Finally, let's calculate the posterior probability, P(A|C),</dt>
+                        <dd>P(Play = "yes" | C) = 0.0053/0.02186 = 0.2424</dd>
+                        <dd>P(Play = "no" | C) = 0.0206/0.02186 = 0.9421</dd>
+                        <dd>We just divide P(X|C)*P(C) by the normalizing constant.</dd>
+                </dl>
+                <p><strong>Answer:</strong> From performing Naive Bayes on the given attribute values, the probability of playing golf is 24.24% and the probability of not playing golf is 94.21%. Thus, if this was a real life scenario, we would likely conclude that golf would not be played.</p>
+            </div>
+            <div class="page" data-page="3">
+                <h1>References</h1>
+                <p><strong>COVID-19 Dataset</strong>: The dataset referenced in the "Bayes Theorem Calculator" can be found <a href="https://www.kaggle.com/zhiruo19/covid19-symptoms-classification/version/1">here</a>. However, the dataset that was actually used went through a little bit of preprocessing.</p>
+                <p><strong>Golf Example</strong>: The example used in "How Naive Bayes Works" can be found <a href="https://www.youtube.com/watch?v=CPqOCI0ahss">here</a>.</p>
+                <br>
+                <h1>About Me</h1>
+                <p>My name is Jack Urso and I am a senior at North Central College. I am pursuing a B.S. in computer engineering and a minor in mathematics.</p>
+                <p>This website was an independent project that I worked on in the summer of 2021. My goal was to learn how to use HTML, CSS and Javascript together to make a responsive webstie.</p>
+                <br>
+                <h1>Contact Info</h1>
+                <p><u>Phone</u>: +1 (630) 631–3481</p>
+                <p><u>Email</u>: jrurso@noctrl.edu</p>
+                
+                
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

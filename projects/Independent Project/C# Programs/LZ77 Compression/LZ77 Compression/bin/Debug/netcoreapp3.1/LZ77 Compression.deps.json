@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "LZ77 Compression/1.0.0": {
+        "runtime": {
+          "LZ77 Compression.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LZ77 Compression/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

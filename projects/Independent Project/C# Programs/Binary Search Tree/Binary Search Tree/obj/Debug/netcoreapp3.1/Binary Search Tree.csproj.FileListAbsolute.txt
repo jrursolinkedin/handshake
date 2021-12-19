@@ -1,0 +1,13 @@
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\bin\Debug\netcoreapp3.1\Binary Search Tree.exe
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\bin\Debug\netcoreapp3.1\Binary Search Tree.deps.json
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\bin\Debug\netcoreapp3.1\Binary Search Tree.runtimeconfig.json
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\bin\Debug\netcoreapp3.1\Binary Search Tree.runtimeconfig.dev.json
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\bin\Debug\netcoreapp3.1\Binary Search Tree.dll
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\bin\Debug\netcoreapp3.1\Binary Search Tree.pdb
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\obj\Debug\netcoreapp3.1\Binary Search Tree.csprojAssemblyReference.cache
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\obj\Debug\netcoreapp3.1\Binary Search Tree.AssemblyInfoInputs.cache
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\obj\Debug\netcoreapp3.1\Binary Search Tree.AssemblyInfo.cs
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\obj\Debug\netcoreapp3.1\Binary Search Tree.csproj.CoreCompileInputs.cache
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\obj\Debug\netcoreapp3.1\Binary Search Tree.dll
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\obj\Debug\netcoreapp3.1\Binary Search Tree.pdb
+C:\Users\16306\Documents\C# workplace\Binary Search Tree\Binary Search Tree\obj\Debug\netcoreapp3.1\Binary Search Tree.genruntimeconfig.cache

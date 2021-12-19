@@ -1,0 +1,13 @@
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\bin\Debug\netcoreapp3.1\LZ78 Compression.exe
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\bin\Debug\netcoreapp3.1\LZ78 Compression.deps.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\bin\Debug\netcoreapp3.1\LZ78 Compression.runtimeconfig.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\bin\Debug\netcoreapp3.1\LZ78 Compression.runtimeconfig.dev.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\bin\Debug\netcoreapp3.1\LZ78 Compression.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\bin\Debug\netcoreapp3.1\LZ78 Compression.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\obj\Debug\netcoreapp3.1\LZ78 Compression.csprojAssemblyReference.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\obj\Debug\netcoreapp3.1\LZ78 Compression.AssemblyInfoInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\obj\Debug\netcoreapp3.1\LZ78 Compression.AssemblyInfo.cs
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\obj\Debug\netcoreapp3.1\LZ78 Compression.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\obj\Debug\netcoreapp3.1\LZ78 Compression.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\obj\Debug\netcoreapp3.1\LZ78 Compression.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\LZ78 Compression\LZ78 Compression\obj\Debug\netcoreapp3.1\LZ78 Compression.genruntimeconfig.cache

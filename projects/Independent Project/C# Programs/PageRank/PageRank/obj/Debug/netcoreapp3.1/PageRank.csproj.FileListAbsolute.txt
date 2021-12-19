@@ -1,0 +1,13 @@
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\bin\Debug\netcoreapp3.1\PageRank.exe
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\bin\Debug\netcoreapp3.1\PageRank.deps.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\bin\Debug\netcoreapp3.1\PageRank.runtimeconfig.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\bin\Debug\netcoreapp3.1\PageRank.runtimeconfig.dev.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\bin\Debug\netcoreapp3.1\PageRank.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\bin\Debug\netcoreapp3.1\PageRank.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\obj\Debug\netcoreapp3.1\PageRank.csprojAssemblyReference.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\obj\Debug\netcoreapp3.1\PageRank.AssemblyInfoInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\obj\Debug\netcoreapp3.1\PageRank.AssemblyInfo.cs
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\obj\Debug\netcoreapp3.1\PageRank.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\obj\Debug\netcoreapp3.1\PageRank.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\obj\Debug\netcoreapp3.1\PageRank.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\PageRank\PageRank\obj\Debug\netcoreapp3.1\PageRank.genruntimeconfig.cache

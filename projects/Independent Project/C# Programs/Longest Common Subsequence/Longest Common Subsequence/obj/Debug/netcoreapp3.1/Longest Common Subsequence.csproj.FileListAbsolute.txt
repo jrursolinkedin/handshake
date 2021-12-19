@@ -1,0 +1,13 @@
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\bin\Debug\netcoreapp3.1\Longest Common Subsequence.exe
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\bin\Debug\netcoreapp3.1\Longest Common Subsequence.deps.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\bin\Debug\netcoreapp3.1\Longest Common Subsequence.runtimeconfig.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\bin\Debug\netcoreapp3.1\Longest Common Subsequence.runtimeconfig.dev.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\bin\Debug\netcoreapp3.1\Longest Common Subsequence.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\bin\Debug\netcoreapp3.1\Longest Common Subsequence.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\obj\Debug\netcoreapp3.1\Longest Common Subsequence.csprojAssemblyReference.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\obj\Debug\netcoreapp3.1\Longest Common Subsequence.AssemblyInfoInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\obj\Debug\netcoreapp3.1\Longest Common Subsequence.AssemblyInfo.cs
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\obj\Debug\netcoreapp3.1\Longest Common Subsequence.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\obj\Debug\netcoreapp3.1\Longest Common Subsequence.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\obj\Debug\netcoreapp3.1\Longest Common Subsequence.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Longest Common Subsequence\Longest Common Subsequence\obj\Debug\netcoreapp3.1\Longest Common Subsequence.genruntimeconfig.cache

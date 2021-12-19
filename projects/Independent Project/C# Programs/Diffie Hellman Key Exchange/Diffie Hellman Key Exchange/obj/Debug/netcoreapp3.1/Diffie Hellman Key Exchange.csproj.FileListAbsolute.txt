@@ -1,0 +1,13 @@
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\bin\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.exe
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\bin\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.deps.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\bin\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.runtimeconfig.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\bin\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.runtimeconfig.dev.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\bin\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\bin\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\obj\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.csprojAssemblyReference.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\obj\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.AssemblyInfoInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\obj\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.AssemblyInfo.cs
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\obj\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\obj\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\obj\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Diffie Hellman Key Exchange\Diffie Hellman Key Exchange\obj\Debug\netcoreapp3.1\Diffie Hellman Key Exchange.genruntimeconfig.cache

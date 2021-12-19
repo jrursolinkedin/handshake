@@ -1,0 +1,13 @@
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\bin\Debug\netcoreapp3.1\Fenwick Tree.exe
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\bin\Debug\netcoreapp3.1\Fenwick Tree.deps.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\bin\Debug\netcoreapp3.1\Fenwick Tree.runtimeconfig.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\bin\Debug\netcoreapp3.1\Fenwick Tree.runtimeconfig.dev.json
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\bin\Debug\netcoreapp3.1\Fenwick Tree.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\bin\Debug\netcoreapp3.1\Fenwick Tree.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\obj\Debug\netcoreapp3.1\Fenwick Tree.csprojAssemblyReference.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\obj\Debug\netcoreapp3.1\Fenwick Tree.AssemblyInfoInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\obj\Debug\netcoreapp3.1\Fenwick Tree.AssemblyInfo.cs
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\obj\Debug\netcoreapp3.1\Fenwick Tree.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\obj\Debug\netcoreapp3.1\Fenwick Tree.dll
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\obj\Debug\netcoreapp3.1\Fenwick Tree.pdb
+C:\Users\jrurs\OneDrive - North Central College\NCC\Outside School\C# workplace\Fenwick Tree\Fenwick Tree\obj\Debug\netcoreapp3.1\Fenwick Tree.genruntimeconfig.cache

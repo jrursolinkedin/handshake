@@ -1,0 +1,730 @@
+jan,wed,morning,TRUE,cool,low,med,mist,FALSE
+jan,thur,evening,FALSE,med,low,med,mist,FALSE
+jan,fri,evening,FALSE,cool,low,med,broken clouds,TRUE
+jan,sat,evening,FALSE,cool,low,med,broken clouds,FALSE
+jan,sun,morning,FALSE,cool,med,med,mist,TRUE
+jan,mon,evening,FALSE,med,low,weak,broken clouds,TRUE
+jan,tues,evening,FALSE,med,low,weak,broken clouds,FALSE
+jan,wed,evening,FALSE,cool,med,weak,broken clouds,TRUE
+jan,thur,evening,FALSE,cool,low,weak,broken clouds,FALSE
+jan,fri,evening,FALSE,med,high,med,mist,FALSE
+jan,sat,evening,FALSE,med,med,med,mist,FALSE
+jan,sun,morning,FALSE,med,low,med,broken clouds,TRUE
+jan,mon,evening,FALSE,med,low,med,broken clouds,FALSE
+jan,tues,evening,FALSE,med,med,strong,broken clouds,FALSE
+jan,wed,evening,FALSE,cool,med,strong,broken clouds,TRUE
+jan,thur,evening,FALSE,cool,med,med,broken clouds,TRUE
+jan,fri,evening,FALSE,med,low,med,broken clouds,TRUE
+jan,sat,evening,FALSE,med,low,weak,broken clouds,TRUE
+jan,sun,morning,FALSE,med,low,med,broken clouds,TRUE
+jan,mon,evening,TRUE,med,low,med,light rain,FALSE
+jan,tues,evening,FALSE,cool,low,med,broken clouds,TRUE
+jan,wed,evening,FALSE,cool,low,med,broken clouds,TRUE
+jan,thur,evening,FALSE,cool,low,med,broken clouds,FALSE
+jan,fri,evening,FALSE,med,low,med,broken clouds,FALSE
+jan,sat,evening,FALSE,cool,low,med,broken clouds,TRUE
+jan,sun,evening,FALSE,cool,low,strong,broken clouds,TRUE
+jan,mon,evening,FALSE,cool,low,strong,few clouds,FALSE
+jan,tues,evening,FALSE,cool,low,med,sky is clear,FALSE
+jan,wed,evening,FALSE,cool,low,med,sky is clear,TRUE
+jan,thur,evening,FALSE,cool,low,strong,overcast clouds,FALSE
+jan,fri,evening,FALSE,cool,low,weak,sky is clear,FALSE
+feb,sat,morning,FALSE,cool,low,weak,sky is clear,TRUE
+feb,sun,morning,FALSE,cool,low,med,sky is clear,FALSE
+feb,mon,evening,FALSE,cool,med,weak,sky is clear,FALSE
+feb,tues,evening,FALSE,cool,low,med,overcast clouds,TRUE
+feb,wed,evening,FALSE,cool,med,strong,light rain,TRUE
+feb,thur,evening,FALSE,cool,low,med,few clouds,TRUE
+feb,fri,evening,FALSE,cool,low,med,sky is clear,TRUE
+feb,sat,evening,FALSE,cool,low,med,overcast clouds,FALSE
+feb,sun,evening,FALSE,cool,med,med,overcast clouds,TRUE
+feb,mon,evening,FALSE,cool,low,med,sky is clear,FALSE
+feb,tues,evening,FALSE,cool,low,med,sky is clear,FALSE
+feb,wed,evening,FALSE,cool,low,med,sky is clear,TRUE
+feb,thur,evening,FALSE,cool,low,med,overcast clouds,TRUE
+feb,fri,evening,FALSE,cool,low,strong,overcast clouds,TRUE
+feb,sat,evening,FALSE,cool,low,med,broken clouds,TRUE
+feb,sun,morning,FALSE,cool,low,med,overcast clouds,FALSE
+feb,mon,evening,FALSE,cool,med,med,overcast clouds,FALSE
+feb,tues,evening,FALSE,med,low,strong,overcast clouds,FALSE
+feb,wed,evening,FALSE,med,low,med,broken clouds,FALSE
+feb,thur,evening,FALSE,med,high,med,overcast clouds,TRUE
+feb,fri,evening,FALSE,med,high,strong,overcast clouds,TRUE
+feb,sat,evening,FALSE,cool,low,med,broken clouds,TRUE
+feb,sun,morning,FALSE,cool,low,med,broken clouds,FALSE
+feb,mon,evening,FALSE,cool,low,med,few clouds,FALSE
+feb,tues,evening,FALSE,cool,low,med,overcast clouds,FALSE
+feb,wed,evening,FALSE,cool,low,strong,sky is clear,FALSE
+feb,thur,evening,FALSE,cool,low,strong,few clouds,TRUE
+feb,fri,evening,FALSE,cool,low,med,sky is clear,TRUE
+march,sat,morning,FALSE,cool,med,med,overcast clouds,TRUE
+march,sun,evening,FALSE,cool,low,med,overcast clouds,TRUE
+march,mon,evening,FALSE,cool,low,med,overcast clouds,FALSE
+march,tues,evening,FALSE,cool,med,med,overcast clouds,TRUE
+march,wed,evening,FALSE,cool,med,med,overcast clouds,FALSE
+march,thur,evening,FALSE,cool,low,med,broken clouds,FALSE
+march,fri,evening,FALSE,med,low,med,sky is clear,TRUE
+march,sat,evening,FALSE,med,low,med,overcast clouds,FALSE
+march,sun,evening,FALSE,med,med,med,sky is clear,TRUE
+march,mon,evening,FALSE,med,low,med,overcast clouds,TRUE
+march,tues,evening,FALSE,med,med,strong,overcast clouds,TRUE
+march,wed,evening,FALSE,med,high,strong,overcast clouds,FALSE
+march,thur,evening,FALSE,cool,low,med,sky is clear,FALSE
+march,fri,evening,FALSE,med,low,strong,sky is clear,TRUE
+march,sat,evening,FALSE,med,low,strong,few clouds,TRUE
+march,sun,morning,FALSE,cool,low,strong,overcast clouds,FALSE
+march,mon,evening,FALSE,med,low,med,few clouds,FALSE
+march,tues,evening,FALSE,med,low,med,broken clouds,TRUE
+march,wed,evening,FALSE,med,high,med,overcast clouds,TRUE
+march,thur,evening,FALSE,med,low,med,light rain,TRUE
+march,fri,evening,FALSE,med,med,med,few clouds,TRUE
+march,sat,evening,FALSE,med,low,strong,overcast clouds,FALSE
+march,sun,morning,FALSE,cool,low,med,broken clouds,FALSE
+march,mon,evening,FALSE,cool,low,med,few clouds,TRUE
+march,tues,evening,FALSE,cool,low,strong,few clouds,FALSE
+march,wed,evening,FALSE,med,low,med,sky is clear,FALSE
+march,thur,evening,FALSE,med,high,strong,light rain,FALSE
+march,fri,evening,FALSE,med,high,strong,light rain,TRUE
+march,sat,evening,FALSE,med,low,med,overcast clouds,FALSE
+march,sun,evening,FALSE,med,low,med,sky is clear,FALSE
+march,mon,evening,FALSE,med,low,strong,broken clouds,TRUE
+april,tues,evening,FALSE,med,low,strong,light rain,TRUE
+april,wed,evening,FALSE,med,low,med,overcast clouds,FALSE
+april,thur,evening,FALSE,med,high,med,overcast clouds,TRUE
+april,fri,evening,FALSE,med,high,strong,overcast clouds,FALSE
+april,sat,evening,FALSE,med,low,strong,few clouds,TRUE
+april,sun,morning,FALSE,med,low,med,sky is clear,TRUE
+april,mon,evening,FALSE,med,low,med,overcast clouds,TRUE
+april,tues,evening,FALSE,med,low,med,overcast clouds,FALSE
+april,wed,evening,FALSE,med,low,strong,few clouds,TRUE
+april,thur,evening,FALSE,med,low,med,broken clouds,FALSE
+april,fri,evening,FALSE,med,low,med,few clouds,TRUE
+april,sat,evening,FALSE,hot,low,strong,broken clouds,FALSE
+april,sun,morning,FALSE,med,high,med,overcast clouds,TRUE
+april,mon,evening,FALSE,med,high,strong,light rain,TRUE
+april,tues,evening,FALSE,med,low,med,light rain,TRUE
+april,wed,evening,FALSE,med,low,strong,sky is clear,FALSE
+april,thur,evening,FALSE,med,low,med,broken clouds,FALSE
+april,fri,evening,FALSE,med,low,med,overcast clouds,FALSE
+april,sat,evening,FALSE,med,low,med,sky is clear,TRUE
+april,sun,evening,FALSE,hot,low,med,broken clouds,TRUE
+april,mon,evening,FALSE,med,low,med,broken clouds,FALSE
+april,tues,evening,FALSE,med,med,med,light rain,FALSE
+april,wed,evening,FALSE,med,low,med,few clouds,TRUE
+april,thur,evening,FALSE,med,low,strong,overcast clouds,TRUE
+april,fri,evening,FALSE,med,med,strong,light rain,FALSE
+april,sat,morning,FALSE,med,low,med,scattered clouds,TRUE
+april,sun,evening,FALSE,med,low,strong,broken clouds,TRUE
+april,mon,evening,FALSE,med,med,strong,light rain,TRUE
+april,tues,evening,FALSE,med,high,med,heavy intensity rain,TRUE
+april,wed,evening,FALSE,med,low,med,few clouds,TRUE
+may,thur,evening,FALSE,med,low,med,light rain,TRUE
+may,fri,evening,FALSE,med,low,med,broken clouds,FALSE
+may,sat,evening,FALSE,med,low,med,scattered clouds,TRUE
+may,sun,morning,FALSE,med,low,med,scattered clouds,TRUE
+may,mon,evening,FALSE,med,low,med,few clouds,TRUE
+may,tues,evening,FALSE,med,low,med,sky is clear,TRUE
+may,wed,evening,FALSE,hot,low,med,broken clouds,FALSE
+may,thur,evening,FALSE,hot,low,med,sky is clear,FALSE
+may,fri,evening,FALSE,hot,high,strong,mist,TRUE
+may,sat,evening,FALSE,hot,med,med,sky is clear,TRUE
+may,sun,morning,FALSE,hot,med,med,sky is clear,TRUE
+may,mon,evening,FALSE,hot,med,strong,broken clouds,FALSE
+may,tues,evening,FALSE,hot,high,med,light rain,FALSE
+may,wed,evening,FALSE,med,med,med,overcast clouds,TRUE
+may,thur,evening,FALSE,med,high,med,light rain,FALSE
+may,fri,evening,FALSE,med,high,weak,light rain,TRUE
+may,sat,evening,FALSE,med,high,med,scattered clouds,TRUE
+may,sun,evening,FALSE,med,low,weak,sky is clear,TRUE
+may,mon,evening,FALSE,med,low,strong,sky is clear,TRUE
+may,tues,evening,FALSE,hot,low,med,scattered clouds,TRUE
+may,wed,evening,FALSE,hot,med,med,mist,TRUE
+may,thur,evening,FALSE,hot,low,med,sky is clear,TRUE
+may,fri,evening,FALSE,med,med,med,scattered clouds,TRUE
+may,sat,evening,FALSE,med,med,med,few clouds,TRUE
+may,sun,morning,FALSE,hot,low,med,few clouds,TRUE
+may,mon,evening,TRUE,hot,low,med,broken clouds,TRUE
+may,tues,evening,FALSE,hot,low,med,light rain,TRUE
+may,wed,evening,FALSE,med,high,med,light rain,FALSE
+may,thur,evening,FALSE,med,low,med,few clouds,TRUE
+may,fri,evening,FALSE,hot,low,med,sky is clear,TRUE
+may,sat,evening,FALSE,hot,low,med,light rain,TRUE
+june,sun,evening,FALSE,hot,low,med,broken clouds,TRUE
+june,mon,evening,FALSE,hot,high,med,light rain,TRUE
+june,tues,evening,FALSE,hot,med,med,sky is clear,TRUE
+june,wed,evening,FALSE,hot,high,med,light rain,TRUE
+june,thur,evening,FALSE,med,med,med,sky is clear,TRUE
+june,fri,evening,FALSE,hot,low,weak,sky is clear,TRUE
+june,sat,evening,FALSE,hot,low,weak,sky is clear,TRUE
+june,sun,evening,FALSE,med,med,med,sky is clear,FALSE
+june,mon,evening,FALSE,med,low,med,sky is clear,TRUE
+june,tues,evening,FALSE,med,med,med,overcast clouds,TRUE
+june,wed,evening,FALSE,med,high,med,light rain,FALSE
+june,thur,evening,FALSE,hot,high,weak,light rain,TRUE
+june,fri,evening,FALSE,med,low,med,sky is clear,FALSE
+june,sat,evening,FALSE,hot,low,weak,sky is clear,TRUE
+june,sun,evening,FALSE,hot,low,med,sky is clear,TRUE
+june,mon,evening,FALSE,hot,high,weak,light rain,FALSE
+june,tues,evening,FALSE,hot,low,med,scattered clouds,TRUE
+june,wed,evening,FALSE,hot,med,med,light rain,FALSE
+june,thur,evening,FALSE,med,high,med,heavy intensity rain,TRUE
+june,fri,evening,FALSE,hot,high,med,light rain,FALSE
+june,sat,evening,FALSE,hot,high,weak,sky is clear,TRUE
+june,sun,evening,FALSE,med,med,weak,sky is clear,TRUE
+june,mon,evening,FALSE,med,high,weak,heavy intensity rain,TRUE
+june,tues,evening,FALSE,med,high,weak,light rain,FALSE
+june,wed,evening,FALSE,med,high,weak,scattered clouds,TRUE
+june,thur,evening,FALSE,med,high,weak,light rain,TRUE
+june,fri,evening,FALSE,hot,high,med,scattered clouds,TRUE
+june,sat,evening,FALSE,hot,low,med,broken clouds,TRUE
+june,sun,evening,FALSE,hot,low,med,moderate rain,FALSE
+june,mon,evening,FALSE,hot,low,med,broken clouds,TRUE
+july,tues,evening,FALSE,hot,med,strong,heavy intensity rain,FALSE
+july,wed,evening,FALSE,hot,low,med,scattered clouds,TRUE
+july,thur,evening,FALSE,med,med,med,broken clouds,TRUE
+july,fri,evening,TRUE,hot,med,med,few clouds,TRUE
+july,sat,morning,FALSE,hot,low,med,overcast clouds,TRUE
+july,sun,evening,FALSE,hot,low,strong,broken clouds,TRUE
+july,mon,evening,FALSE,hot,med,strong,broken clouds,TRUE
+july,tues,evening,FALSE,hot,low,med,broken clouds,TRUE
+july,wed,evening,FALSE,hot,low,med,scattered clouds,FALSE
+july,thur,evening,FALSE,hot,high,med,few clouds,FALSE
+july,fri,evening,FALSE,hot,low,med,broken clouds,TRUE
+july,sat,morning,FALSE,hot,med,strong,overcast clouds,TRUE
+july,sun,evening,FALSE,hot,med,strong,overcast clouds,TRUE
+july,mon,evening,FALSE,hot,low,med,broken clouds,TRUE
+july,tues,evening,FALSE,med,med,med,broken clouds,FALSE
+july,wed,evening,FALSE,med,high,med,broken clouds,FALSE
+july,thur,evening,FALSE,med,high,med,broken clouds,FALSE
+july,fri,evening,FALSE,hot,low,med,broken clouds,FALSE
+july,sat,evening,FALSE,hot,low,med,few clouds,TRUE
+july,sun,morning,FALSE,hot,med,med,broken clouds,TRUE
+july,mon,evening,FALSE,hot,low,med,sky is clear,TRUE
+july,tues,evening,FALSE,hot,low,med,sky is clear,TRUE
+july,wed,evening,FALSE,hot,high,strong,few clouds,TRUE
+july,thur,evening,FALSE,med,high,med,sky is clear,TRUE
+july,fri,evening,FALSE,med,high,med,broken clouds,TRUE
+july,sat,evening,FALSE,hot,med,med,overcast clouds,FALSE
+july,sun,morning,FALSE,hot,med,strong,mist,FALSE
+july,mon,evening,FALSE,med,med,strong,light rain,FALSE
+july,tues,evening,FALSE,med,high,med,few clouds,TRUE
+july,wed,evening,FALSE,hot,low,med,few clouds,FALSE
+july,thur,evening,FALSE,hot,low,med,mist,TRUE
+aug,fri,evening,FALSE,hot,low,med,sky is clear,TRUE
+aug,sat,evening,FALSE,med,med,weak,sky is clear,TRUE
+aug,sun,evening,FALSE,hot,med,med,sky is clear,TRUE
+aug,mon,evening,FALSE,hot,low,med,broken clouds,TRUE
+aug,tues,evening,FALSE,hot,med,med,mist,TRUE
+aug,wed,evening,FALSE,hot,low,med,overcast clouds,TRUE
+aug,thur,evening,FALSE,hot,med,med,broken clouds,FALSE
+aug,fri,evening,FALSE,med,med,med,sky is clear,FALSE
+aug,sat,evening,FALSE,med,low,med,sky is clear,FALSE
+aug,sun,evening,FALSE,med,med,med,broken clouds,TRUE
+aug,mon,evening,FALSE,med,high,med,light rain,TRUE
+aug,tues,evening,FALSE,med,high,med,moderate rain,TRUE
+aug,wed,evening,FALSE,med,high,med,sky is clear,TRUE
+aug,thur,evening,FALSE,med,high,med,sky is clear,TRUE
+aug,fri,evening,FALSE,med,high,weak,sky is clear,TRUE
+aug,sat,evening,FALSE,hot,high,med,sky is clear,TRUE
+aug,sun,morning,FALSE,med,med,med,sky is clear,TRUE
+aug,mon,evening,FALSE,med,high,med,sky is clear,FALSE
+aug,tues,evening,FALSE,hot,med,med,scattered clouds,TRUE
+aug,wed,evening,FALSE,hot,med,weak,sky is clear,TRUE
+aug,thur,evening,FALSE,hot,med,weak,moderate rain,TRUE
+aug,fri,evening,FALSE,hot,high,weak,heavy intensity rain,TRUE
+aug,sat,morning,FALSE,hot,med,weak,scattered clouds,FALSE
+aug,sun,evening,FALSE,hot,med,med,scattered clouds,TRUE
+aug,mon,evening,FALSE,hot,med,med,sky is clear,TRUE
+aug,tues,evening,FALSE,hot,med,weak,moderate rain,TRUE
+aug,wed,evening,FALSE,med,high,weak,sky is clear,TRUE
+aug,thur,evening,FALSE,med,high,med,sky is clear,FALSE
+aug,fri,evening,FALSE,med,med,med,light rain,TRUE
+aug,sat,evening,FALSE,hot,med,med,scattered clouds,TRUE
+aug,sun,evening,FALSE,hot,high,med,sky is clear,TRUE
+sept,mon,evening,TRUE,hot,high,med,sky is clear,FALSE
+sept,tues,evening,FALSE,hot,med,med,sky is clear,TRUE
+sept,wed,evening,FALSE,hot,high,weak,sky is clear,FALSE
+sept,thur,evening,FALSE,hot,low,med,scattered clouds,TRUE
+sept,fri,evening,FALSE,hot,med,med,sky is clear,TRUE
+sept,sat,evening,FALSE,med,high,med,broken clouds,TRUE
+sept,sun,evening,FALSE,med,high,weak,sky is clear,TRUE
+sept,mon,evening,FALSE,med,high,med,sky is clear,TRUE
+sept,tues,evening,FALSE,med,med,med,scattered clouds,FALSE
+sept,wed,evening,FALSE,med,high,strong,heavy intensity rain,TRUE
+sept,thur,evening,FALSE,med,high,strong,few clouds,TRUE
+sept,fri,evening,FALSE,med,high,med,overcast clouds,FALSE
+sept,sat,evening,FALSE,med,high,med,light rain,TRUE
+sept,sun,evening,FALSE,med,high,weak,sky is clear,TRUE
+sept,mon,evening,FALSE,med,high,weak,sky is clear,TRUE
+sept,tues,evening,FALSE,med,high,med,sky is clear,FALSE
+sept,wed,evening,FALSE,med,high,weak,sky is clear,TRUE
+sept,thur,evening,FALSE,med,high,weak,sky is clear,TRUE
+sept,fri,evening,FALSE,med,high,med,sky is clear,TRUE
+sept,sat,evening,FALSE,med,low,med,broken clouds,TRUE
+sept,sun,morning,FALSE,med,high,med,light rain,FALSE
+sept,mon,evening,FALSE,med,high,med,sky is clear,TRUE
+sept,tues,evening,FALSE,med,high,weak,sky is clear,TRUE
+sept,wed,evening,FALSE,med,med,med,sky is clear,FALSE
+sept,thur,evening,FALSE,med,med,weak,broken clouds,FALSE
+sept,fri,evening,FALSE,med,med,weak,sky is clear,TRUE
+sept,sat,evening,FALSE,med,med,weak,sky is clear,TRUE
+sept,sun,evening,FALSE,med,med,weak,broken clouds,TRUE
+sept,mon,evening,FALSE,med,high,weak,sky is clear,TRUE
+sept,tues,evening,FALSE,med,high,med,light rain,TRUE
+oct,wed,evening,FALSE,med,high,med,sky is clear,FALSE
+oct,thur,evening,FALSE,med,med,med,moderate rain,TRUE
+oct,fri,evening,FALSE,med,high,med,heavy intensity rain,TRUE
+oct,sat,evening,FALSE,med,high,strong,scattered clouds,TRUE
+oct,sun,evening,FALSE,med,high,med,scattered clouds,FALSE
+oct,mon,evening,FALSE,med,high,med,moderate rain,TRUE
+oct,tues,evening,FALSE,med,high,med,sky is clear,FALSE
+oct,wed,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,thur,evening,FALSE,med,high,med,broken clouds,TRUE
+oct,fri,evening,FALSE,med,high,weak,broken clouds,FALSE
+oct,sat,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,sun,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,mon,evening,TRUE,med,high,med,light rain,TRUE
+oct,tues,evening,FALSE,med,med,med,moderate rain,TRUE
+oct,wed,evening,FALSE,med,high,med,moderate rain,FALSE
+oct,thur,evening,FALSE,med,high,med,light rain,TRUE
+oct,fri,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,sat,evening,FALSE,med,high,med,scattered clouds,TRUE
+oct,sun,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,mon,evening,FALSE,med,high,med,sky is clear,FALSE
+oct,tues,evening,FALSE,med,high,med,scattered clouds,TRUE
+oct,wed,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,thur,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,fri,evening,FALSE,med,high,med,broken clouds,TRUE
+oct,sat,evening,FALSE,med,med,med,sky is clear,TRUE
+oct,sun,morning,FALSE,med,high,med,sky is clear,TRUE
+oct,mon,evening,FALSE,med,low,med,scattered clouds,TRUE
+oct,tues,evening,FALSE,med,low,med,light rain,TRUE
+oct,wed,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,thur,evening,FALSE,med,high,weak,broken clouds,FALSE
+oct,fri,evening,FALSE,med,high,strong,light rain,TRUE
+nov,sat,morning,FALSE,med,high,strong,light rain,TRUE
+nov,sun,morning,FALSE,med,high,med,sky is clear,TRUE
+nov,mon,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,tues,evening,FALSE,med,low,med,light rain,TRUE
+nov,wed,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,thur,evening,FALSE,med,high,strong,light rain,TRUE
+nov,fri,evening,FALSE,med,high,strong,sky is clear,TRUE
+nov,sat,evening,FALSE,med,high,strong,broken clouds,TRUE
+nov,sun,evening,FALSE,med,high,med,scattered clouds,TRUE
+nov,mon,evening,FALSE,med,high,med,broken clouds,TRUE
+nov,tues,morning,TRUE,med,high,strong,light rain,TRUE
+nov,wed,evening,FALSE,med,high,strong,few clouds,FALSE
+nov,thur,evening,FALSE,cool,high,med,broken clouds,TRUE
+nov,fri,evening,FALSE,cool,high,med,sky is clear,FALSE
+nov,sat,morning,FALSE,cool,high,med,sky is clear,TRUE
+nov,sun,evening,FALSE,cool,high,med,light snow,TRUE
+nov,mon,evening,FALSE,cool,high,strong,scattered clouds,FALSE
+nov,tues,evening,FALSE,cool,high,strong,scattered clouds,TRUE
+nov,wed,evening,FALSE,cool,high,strong,snow,TRUE
+nov,thur,evening,FALSE,cool,high,strong,few clouds,FALSE
+nov,fri,evening,FALSE,cool,high,med,sky is clear,FALSE
+nov,sat,evening,FALSE,med,high,strong,light rain,TRUE
+nov,sun,morning,FALSE,med,low,med,light rain,FALSE
+nov,mon,evening,FALSE,med,high,strong,heavy intensity rain,FALSE
+nov,tues,evening,FALSE,cool,high,strong,light snow,FALSE
+nov,wed,evening,FALSE,cool,high,med,scattered clouds,TRUE
+nov,thur,evening,TRUE,cool,high,med,light snow,FALSE
+nov,fri,evening,FALSE,cool,high,med,light snow,TRUE
+nov,sat,evening,FALSE,med,high,med,few clouds,TRUE
+nov,sun,morning,FALSE,med,high,med,sky is clear,TRUE
+dec,mon,evening,FALSE,cool,high,med,broken clouds,FALSE
+dec,tues,evening,FALSE,cool,high,med,scattered clouds,FALSE
+dec,wed,evening,FALSE,cool,high,med,sky is clear,TRUE
+dec,thur,evening,FALSE,med,high,med,scattered clouds,FALSE
+dec,fri,evening,FALSE,med,high,med,overcast clouds,TRUE
+dec,sat,evening,FALSE,med,high,med,broken clouds,FALSE
+dec,sun,morning,FALSE,med,high,med,sky is clear,FALSE
+dec,mon,evening,FALSE,med,high,med,light rain,TRUE
+dec,tues,evening,FALSE,med,high,med,light rain,TRUE
+dec,wed,evening,FALSE,med,high,med,broken clouds,TRUE
+dec,thur,evening,FALSE,cool,high,med,sky is clear,TRUE
+dec,fri,evening,FALSE,med,high,med,sky is clear,TRUE
+dec,sat,evening,FALSE,med,high,med,scattered clouds,TRUE
+dec,sun,morning,FALSE,med,med,med,overcast clouds,FALSE
+dec,mon,evening,FALSE,med,med,med,light rain,TRUE
+dec,tues,evening,FALSE,med,med,med,light rain,TRUE
+dec,wed,evening,FALSE,med,high,med,scattered clouds,TRUE
+dec,thur,evening,FALSE,cool,high,med,sky is clear,FALSE
+dec,fri,evening,FALSE,cool,high,med,sky is clear,TRUE
+dec,sat,evening,FALSE,cool,high,weak,broken clouds,FALSE
+dec,sun,evening,FALSE,med,high,med,broken clouds,TRUE
+dec,mon,evening,FALSE,med,high,med,broken clouds,TRUE
+dec,tues,evening,FALSE,med,high,med,moderate rain,TRUE
+dec,wed,evening,FALSE,med,high,med,light rain,FALSE
+dec,thur,evening,TRUE,med,high,med,broken clouds,TRUE
+dec,fri,evening,FALSE,med,med,med,scattered clouds,TRUE
+dec,sat,evening,FALSE,med,med,med,light rain,TRUE
+dec,sun,evening,FALSE,med,high,med,sky is clear,TRUE
+dec,mon,evening,FALSE,cool,high,med,broken clouds,FALSE
+dec,tues,evening,FALSE,cool,high,med,sky is clear,FALSE
+dec,wed,evening,TRUE,cool,high,strong,sky is clear,TRUE
+jan,thur,morning,TRUE,cool,high,strong,sky is clear,FALSE
+jan,fri,evening,FALSE,cool,high,med,sky is clear,FALSE
+jan,sat,evening,FALSE,cool,high,med,snow,TRUE
+jan,sun,morning,FALSE,med,high,strong,light rain,FALSE
+jan,mon,evening,FALSE,cool,high,strong,sky is clear,TRUE
+jan,tues,evening,FALSE,cool,high,med,snow,TRUE
+jan,wed,evening,FALSE,cool,high,strong,sky is clear,FALSE
+jan,thur,evening,FALSE,cool,high,strong,sky is clear,TRUE
+jan,fri,evening,FALSE,cool,high,strong,light snow,TRUE
+jan,sat,evening,FALSE,cool,high,med,sky is clear,TRUE
+jan,sun,morning,FALSE,cool,high,med,light snow,FALSE
+jan,mon,evening,FALSE,cool,high,med,snow,FALSE
+jan,tues,evening,FALSE,cool,high,med,sky is clear,TRUE
+jan,wed,evening,FALSE,cool,high,med,sky is clear,TRUE
+jan,thur,evening,FALSE,cool,high,med,scattered clouds,FALSE
+jan,fri,evening,FALSE,cool,high,med,sky is clear,TRUE
+jan,sat,evening,FALSE,med,high,med,broken clouds,TRUE
+jan,sun,morning,FALSE,med,med,med,light snow,TRUE
+jan,mon,evening,TRUE,cool,med,weak,few clouds,FALSE
+jan,tues,evening,FALSE,cool,med,weak,broken clouds,TRUE
+jan,wed,evening,FALSE,cool,high,med,light snow,TRUE
+jan,thur,evening,FALSE,cool,high,med,few clouds,FALSE
+jan,fri,evening,FALSE,cool,high,med,sky is clear,TRUE
+jan,sat,evening,FALSE,med,high,med,scattered clouds,TRUE
+jan,sun,morning,FALSE,cool,high,med,snow,FALSE
+jan,mon,evening,FALSE,cool,high,med,scattered clouds,FALSE
+jan,tues,evening,FALSE,cool,high,weak,light snow,TRUE
+jan,wed,evening,FALSE,cool,high,med,sky is clear,FALSE
+jan,thur,evening,FALSE,med,med,strong,light rain,TRUE
+jan,fri,evening,FALSE,cool,high,med,sky is clear,TRUE
+jan,sat,evening,FALSE,cool,high,med,sky is clear,TRUE
+feb,sun,morning,FALSE,cool,high,strong,snow,TRUE
+feb,mon,evening,FALSE,cool,high,strong,snow,TRUE
+feb,tues,evening,FALSE,cool,high,med,sky is clear,FALSE
+feb,wed,evening,FALSE,cool,high,med,snow,TRUE
+feb,thur,evening,FALSE,cool,med,med,sky is clear,TRUE
+feb,fri,evening,FALSE,cool,high,med,sky is clear,FALSE
+feb,sat,evening,FALSE,med,med,med,sky is clear,FALSE
+feb,sun,morning,FALSE,med,med,med,sky is clear,TRUE
+feb,mon,evening,FALSE,cool,med,med,sky is clear,TRUE
+feb,tues,evening,FALSE,cool,high,med,few clouds,TRUE
+feb,wed,evening,FALSE,cool,high,med,light snow,FALSE
+feb,thur,evening,FALSE,cool,high,strong,light snow,FALSE
+feb,fri,evening,FALSE,cool,high,med,sky is clear,FALSE
+feb,sat,evening,FALSE,cool,med,strong,sky is clear,FALSE
+feb,sun,evening,FALSE,cool,med,strong,sky is clear,TRUE
+feb,mon,evening,TRUE,cool,med,weak,broken clouds,FALSE
+feb,tues,evening,FALSE,cool,med,med,broken clouds,FALSE
+feb,wed,evening,FALSE,cool,low,med,scattered clouds,FALSE
+feb,thur,evening,FALSE,cool,low,med,sky is clear,FALSE
+feb,fri,evening,FALSE,cool,med,med,sky is clear,TRUE
+feb,sat,evening,FALSE,cool,high,med,light snow,TRUE
+feb,sun,evening,FALSE,cool,high,med,scattered clouds,TRUE
+feb,mon,evening,FALSE,cool,high,med,sky is clear,FALSE
+feb,tues,evening,FALSE,cool,low,med,sky is clear,FALSE
+feb,wed,evening,FALSE,cool,med,med,sky is clear,TRUE
+feb,thur,evening,FALSE,cool,med,med,snow,FALSE
+feb,fri,evening,FALSE,cool,high,med,sky is clear,FALSE
+feb,sat,morning,FALSE,cool,med,weak,sky is clear,FALSE
+march,sun,evening,FALSE,cool,high,med,sky is clear,FALSE
+march,mon,evening,FALSE,cool,med,med,sky is clear,TRUE
+march,tues,evening,FALSE,cool,med,med,snow,FALSE
+march,wed,evening,FALSE,cool,med,med,sky is clear,FALSE
+march,thur,evening,FALSE,cool,med,med,sky is clear,FALSE
+march,fri,evening,FALSE,cool,med,med,sky is clear,FALSE
+march,sat,evening,FALSE,med,low,med,sky is clear,TRUE
+march,sun,morning,FALSE,cool,med,med,scattered clouds,TRUE
+march,mon,evening,FALSE,cool,med,weak,sky is clear,TRUE
+march,tues,evening,FALSE,med,med,med,broken clouds,FALSE
+march,wed,evening,FALSE,med,med,med,sky is clear,FALSE
+march,thur,evening,FALSE,med,med,med,sky is clear,FALSE
+march,fri,evening,FALSE,med,low,med,overcast clouds,FALSE
+march,sat,evening,FALSE,med,low,med,broken clouds,FALSE
+march,sun,evening,FALSE,med,med,med,sky is clear,TRUE
+march,mon,evening,FALSE,med,low,med,scattered clouds,TRUE
+march,tues,evening,FALSE,med,low,strong,sky is clear,FALSE
+march,wed,evening,FALSE,med,low,weak,broken clouds,FALSE
+march,thur,evening,FALSE,med,low,med,broken clouds,TRUE
+march,fri,evening,FALSE,med,low,med,overcast clouds,TRUE
+march,sat,evening,FALSE,med,low,med,sky is clear,TRUE
+march,sun,evening,FALSE,cool,high,med,sky is clear,TRUE
+march,mon,evening,FALSE,cool,high,med,snow,FALSE
+march,tues,evening,FALSE,cool,high,med,sky is clear,TRUE
+march,wed,evening,FALSE,med,high,strong,heavy intensity rain,TRUE
+march,thur,evening,FALSE,med,high,med,broken clouds,TRUE
+march,fri,evening,FALSE,med,high,med,sky is clear,TRUE
+march,sat,evening,FALSE,cool,high,med,sky is clear,TRUE
+march,sun,morning,FALSE,med,high,strong,moderate rain,TRUE
+march,mon,evening,FALSE,med,low,med,moderate rain,TRUE
+march,tues,evening,FALSE,med,low,med,moderate rain,TRUE
+april,wed,evening,FALSE,med,low,med,sky is clear,TRUE
+april,thur,evening,FALSE,med,low,med,moderate rain,TRUE
+april,fri,evening,FALSE,med,low,med,scattered clouds,TRUE
+april,sat,evening,FALSE,med,high,med,sky is clear,TRUE
+april,sun,evening,FALSE,med,low,med,sky is clear,FALSE
+april,mon,evening,FALSE,med,low,med,sky is clear,FALSE
+april,tues,evening,FALSE,med,med,med,moderate rain,FALSE
+april,wed,evening,FALSE,med,med,med,moderate rain,TRUE
+april,thur,evening,FALSE,med,low,med,light rain,FALSE
+april,fri,evening,FALSE,med,low,strong,moderate rain,TRUE
+april,sat,evening,FALSE,med,low,med,sky is clear,TRUE
+april,sun,morning,FALSE,med,low,med,sky is clear,FALSE
+april,mon,evening,FALSE,med,low,med,light rain,FALSE
+april,tues,evening,FALSE,med,low,med,broken clouds,FALSE
+april,wed,evening,FALSE,med,low,med,sky is clear,TRUE
+april,thur,evening,FALSE,med,low,med,light rain,FALSE
+april,fri,evening,FALSE,med,low,weak,sky is clear,FALSE
+april,sat,morning,FALSE,med,low,med,sky is clear,TRUE
+april,sun,morning,FALSE,med,low,med,broken clouds,TRUE
+april,mon,evening,FALSE,med,med,med,moderate rain,TRUE
+april,tues,evening,FALSE,med,low,med,sky is clear,TRUE
+april,wed,evening,FALSE,med,med,med,broken clouds,FALSE
+april,thur,evening,FALSE,med,med,med,sky is clear,TRUE
+april,fri,evening,FALSE,med,low,weak,sky is clear,TRUE
+april,sat,evening,FALSE,med,low,med,light rain,TRUE
+april,sun,morning,FALSE,med,low,med,sky is clear,TRUE
+april,mon,evening,FALSE,med,low,med,sky is clear,FALSE
+april,tues,evening,FALSE,med,med,med,sky is clear,TRUE
+april,wed,evening,FALSE,med,med,weak,sky is clear,TRUE
+april,thur,evening,FALSE,med,low,med,sky is clear,TRUE
+may,fri,evening,FALSE,med,med,med,sky is clear,TRUE
+may,sat,evening,FALSE,med,low,weak,sky is clear,FALSE
+may,sun,morning,FALSE,med,low,med,sky is clear,TRUE
+may,mon,evening,FALSE,med,low,med,light rain,FALSE
+may,tues,evening,FALSE,med,med,med,moderate rain,TRUE
+may,wed,evening,FALSE,med,low,weak,scattered clouds,FALSE
+may,thur,evening,FALSE,med,low,med,few clouds,TRUE
+may,fri,evening,FALSE,med,low,med,sky is clear,FALSE
+may,sat,evening,FALSE,med,med,weak,moderate rain,TRUE
+may,sun,evening,FALSE,med,high,med,heavy intensity rain,TRUE
+may,mon,evening,FALSE,med,med,med,light rain,TRUE
+may,tues,evening,FALSE,med,low,med,few clouds,FALSE
+may,wed,evening,FALSE,med,low,med,sky is clear,TRUE
+may,thur,evening,FALSE,med,med,med,overcast clouds,TRUE
+may,fri,evening,FALSE,med,low,med,moderate rain,FALSE
+may,sat,evening,FALSE,med,low,weak,moderate rain,TRUE
+may,sun,evening,FALSE,med,low,med,light rain,FALSE
+may,mon,evening,FALSE,med,low,med,few clouds,TRUE
+may,tues,evening,FALSE,med,low,med,sky is clear,FALSE
+may,wed,evening,FALSE,med,med,med,broken clouds,TRUE
+may,thur,evening,FALSE,med,low,med,sky is clear,TRUE
+may,fri,evening,FALSE,med,low,med,sky is clear,TRUE
+may,sat,evening,FALSE,med,low,weak,scattered clouds,TRUE
+may,sun,morning,FALSE,med,low,med,overcast clouds,TRUE
+may,mon,evening,TRUE,med,low,med,moderate rain,TRUE
+may,tues,evening,FALSE,med,low,med,moderate rain,FALSE
+may,wed,evening,FALSE,med,low,med,light rain,FALSE
+may,thur,evening,FALSE,med,low,weak,sky is clear,TRUE
+may,fri,evening,FALSE,med,low,med,scattered clouds,TRUE
+may,sat,morning,FALSE,med,high,strong,moderate rain,TRUE
+may,sun,evening,FALSE,med,high,strong,moderate rain,TRUE
+june,mon,evening,FALSE,med,high,med,sky is clear,TRUE
+june,tues,evening,FALSE,med,high,med,sky is clear,TRUE
+june,wed,evening,FALSE,med,low,weak,sky is clear,TRUE
+june,thur,evening,FALSE,med,low,med,light rain,TRUE
+june,fri,evening,FALSE,med,med,med,broken clouds,TRUE
+june,sat,evening,FALSE,med,med,med,sky is clear,TRUE
+june,sun,morning,FALSE,med,low,med,sky is clear,TRUE
+june,mon,evening,FALSE,med,low,med,light rain,TRUE
+june,tues,evening,FALSE,med,low,weak,sky is clear,FALSE
+june,wed,evening,FALSE,med,low,med,sky is clear,TRUE
+june,thur,evening,FALSE,med,low,weak,sky is clear,TRUE
+june,fri,evening,FALSE,med,high,med,moderate rain,TRUE
+june,sat,evening,FALSE,med,high,med,moderate rain,TRUE
+june,sun,evening,FALSE,med,low,med,heavy intensity rain,TRUE
+june,mon,evening,FALSE,med,med,weak,light rain,TRUE
+june,tues,evening,FALSE,med,med,med,light rain,TRUE
+june,wed,evening,FALSE,med,low,weak,broken clouds,TRUE
+june,thur,evening,FALSE,med,med,med,scattered clouds,TRUE
+june,fri,evening,FALSE,med,med,med,sky is clear,FALSE
+june,sat,evening,FALSE,med,high,med,sky is clear,TRUE
+june,sun,evening,FALSE,med,med,weak,heavy intensity rain,TRUE
+june,mon,evening,FALSE,med,low,strong,broken clouds,FALSE
+june,tues,evening,FALSE,med,med,med,heavy intensity rain,TRUE
+june,wed,evening,FALSE,med,low,weak,sky is clear,TRUE
+june,thur,evening,FALSE,hot,med,med,light rain,TRUE
+june,fri,evening,FALSE,med,med,med,mist,TRUE
+june,sat,evening,FALSE,med,med,med,scattered clouds,TRUE
+june,sun,evening,FALSE,hot,med,med,few clouds,TRUE
+june,mon,evening,FALSE,med,med,med,mist,TRUE
+june,tues,evening,FALSE,med,med,med,mist,TRUE
+july,wed,evening,FALSE,med,med,med,overcast clouds,TRUE
+july,thur,evening,FALSE,med,med,med,broken clouds,TRUE
+july,fri,evening,TRUE,med,low,med,overcast clouds,TRUE
+july,sat,evening,TRUE,hot,low,med,mist,TRUE
+july,sun,morning,FALSE,hot,low,med,haze,TRUE
+july,mon,evening,FALSE,hot,med,med,haze,TRUE
+july,tues,evening,FALSE,hot,med,strong,mist,TRUE
+july,wed,evening,FALSE,med,low,med,overcast clouds,TRUE
+july,thur,evening,FALSE,med,med,med,mist,TRUE
+july,fri,evening,FALSE,hot,high,med,mist,TRUE
+july,sat,evening,FALSE,hot,low,med,mist,TRUE
+july,sun,evening,FALSE,hot,low,med,mist,TRUE
+july,mon,evening,FALSE,hot,low,strong,broken clouds,TRUE
+july,tues,evening,FALSE,hot,low,med,broken clouds,FALSE
+july,wed,evening,FALSE,med,low,med,broken clouds,TRUE
+july,thur,evening,FALSE,med,low,med,overcast clouds,TRUE
+july,fri,evening,FALSE,hot,med,med,mist,TRUE
+july,sat,evening,FALSE,hot,high,med,broken clouds,TRUE
+july,sun,morning,FALSE,hot,low,med,broken clouds,TRUE
+july,mon,evening,FALSE,hot,high,med,broken clouds,TRUE
+july,tues,evening,FALSE,hot,low,med,few clouds,TRUE
+july,wed,evening,FALSE,hot,med,med,broken clouds,FALSE
+july,thur,evening,FALSE,hot,high,med,scattered clouds,TRUE
+july,fri,evening,FALSE,hot,low,med,mist,TRUE
+july,sat,evening,FALSE,hot,low,med,broken clouds,TRUE
+july,sun,morning,FALSE,hot,low,med,mist,TRUE
+july,mon,evening,FALSE,hot,high,med,broken clouds,FALSE
+july,tues,evening,FALSE,hot,med,med,broken clouds,TRUE
+july,wed,evening,FALSE,hot,med,med,mist,FALSE
+july,thur,evening,FALSE,hot,low,med,sky is clear,TRUE
+july,fri,evening,FALSE,hot,low,strong,few clouds,TRUE
+aug,sat,evening,FALSE,hot,low,med,few clouds,FALSE
+aug,sun,morning,FALSE,hot,low,strong,few clouds,TRUE
+aug,mon,evening,FALSE,hot,med,strong,few clouds,TRUE
+aug,tues,evening,FALSE,hot,low,med,broken clouds,TRUE
+aug,wed,evening,FALSE,hot,low,med,broken clouds,TRUE
+aug,thur,evening,FALSE,hot,low,med,overcast clouds,TRUE
+aug,fri,evening,FALSE,hot,low,med,mist,TRUE
+aug,sat,evening,FALSE,hot,low,med,broken clouds,FALSE
+aug,sun,evening,FALSE,hot,med,med,mist,TRUE
+aug,mon,evening,FALSE,hot,med,med,haze,TRUE
+aug,tues,evening,FALSE,hot,low,med,mist,TRUE
+aug,wed,evening,FALSE,hot,high,med,few clouds,FALSE
+aug,thur,evening,FALSE,hot,low,med,broken clouds,TRUE
+aug,fri,evening,FALSE,hot,low,med,broken clouds,TRUE
+aug,sat,evening,FALSE,hot,low,strong,few clouds,TRUE
+aug,sun,morning,FALSE,hot,low,med,scattered clouds,TRUE
+aug,mon,evening,FALSE,hot,low,med,few clouds,TRUE
+aug,tues,evening,FALSE,hot,low,strong,mist,FALSE
+aug,wed,evening,FALSE,hot,low,strong,overcast clouds,TRUE
+aug,thur,evening,FALSE,med,low,strong,broken clouds,TRUE
+aug,fri,evening,FALSE,hot,high,med,sky is clear,TRUE
+aug,sat,evening,FALSE,hot,low,med,sky is clear,TRUE
+aug,sun,morning,FALSE,med,low,med,broken clouds,TRUE
+aug,mon,evening,FALSE,med,low,strong,few clouds,TRUE
+aug,tues,evening,FALSE,med,low,med,overcast clouds,TRUE
+aug,wed,evening,FALSE,med,low,med,overcast clouds,TRUE
+aug,thur,evening,FALSE,med,high,med,mist,FALSE
+aug,fri,evening,FALSE,med,low,med,mist,TRUE
+aug,sat,evening,FALSE,med,high,med,mist,TRUE
+aug,sun,evening,FALSE,med,high,med,light rain,TRUE
+aug,mon,evening,FALSE,hot,high,weak,fog,TRUE
+sept,tues,evening,FALSE,hot,med,med,few clouds,TRUE
+sept,wed,evening,FALSE,hot,high,med,sky is clear,TRUE
+sept,thur,evening,FALSE,hot,med,med,broken clouds,TRUE
+sept,fri,evening,FALSE,hot,high,med,mist,TRUE
+sept,sat,morning,FALSE,hot,med,med,mist,TRUE
+sept,sun,evening,FALSE,hot,low,med,mist,TRUE
+sept,mon,evening,TRUE,hot,low,med,haze,TRUE
+sept,tues,evening,FALSE,hot,med,med,mist,TRUE
+sept,wed,evening,FALSE,med,high,med,mist,TRUE
+sept,thur,evening,FALSE,med,med,med,sky is clear,TRUE
+sept,fri,evening,FALSE,med,med,strong,mist,FALSE
+sept,sat,evening,FALSE,med,low,med,broken clouds,FALSE
+sept,sun,evening,FALSE,med,med,med,few clouds,TRUE
+sept,mon,evening,FALSE,hot,low,med,sky is clear,TRUE
+sept,tues,evening,FALSE,hot,low,med,broken clouds,TRUE
+sept,wed,evening,FALSE,hot,low,med,sky is clear,TRUE
+sept,thur,evening,FALSE,hot,low,med,sky is clear,FALSE
+sept,fri,evening,FALSE,hot,high,med,mist,TRUE
+sept,sat,evening,FALSE,med,med,strong,mist,TRUE
+sept,sun,evening,FALSE,med,high,med,mist,TRUE
+sept,mon,evening,FALSE,med,low,med,sky is clear,TRUE
+sept,tues,evening,FALSE,hot,med,med,mist,TRUE
+sept,wed,evening,FALSE,hot,med,med,few clouds,TRUE
+sept,thur,evening,FALSE,med,med,med,broken clouds,TRUE
+sept,fri,evening,FALSE,med,med,med,mist,TRUE
+sept,sat,evening,FALSE,med,low,med,scattered clouds,TRUE
+sept,sun,evening,FALSE,med,low,med,overcast clouds,TRUE
+sept,mon,evening,FALSE,hot,low,med,broken clouds,TRUE
+sept,tues,evening,FALSE,med,med,strong,mist,TRUE
+sept,wed,evening,FALSE,med,low,strong,broken clouds,TRUE
+oct,thur,evening,FALSE,med,low,strong,broken clouds,TRUE
+oct,fri,evening,FALSE,med,low,strong,few clouds,FALSE
+oct,sat,evening,FALSE,med,med,strong,broken clouds,FALSE
+oct,sun,evening,FALSE,med,med,strong,overcast clouds,TRUE
+oct,mon,evening,FALSE,med,med,med,mist,FALSE
+oct,tues,evening,FALSE,med,high,med,mist,TRUE
+oct,wed,evening,FALSE,med,low,med,fog,TRUE
+oct,thur,evening,FALSE,hot,low,med,broken clouds,TRUE
+oct,fri,evening,FALSE,med,med,med,light rain,TRUE
+oct,sat,evening,FALSE,med,med,med,broken clouds,TRUE
+oct,sun,evening,FALSE,hot,low,med,sky is clear,TRUE
+oct,mon,evening,TRUE,med,low,strong,few clouds,TRUE
+oct,tues,evening,FALSE,med,low,strong,broken clouds,TRUE
+oct,wed,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,thur,evening,FALSE,med,low,med,sky is clear,FALSE
+oct,fri,evening,FALSE,med,high,strong,sky is clear,TRUE
+oct,sat,evening,FALSE,med,high,med,sky is clear,FALSE
+oct,sun,evening,FALSE,med,low,med,sky is clear,TRUE
+oct,mon,evening,FALSE,med,high,strong,sky is clear,TRUE
+oct,tues,evening,FALSE,med,low,med,broken clouds,FALSE
+oct,wed,evening,FALSE,med,low,strong,overcast clouds,FALSE
+oct,thur,evening,FALSE,med,low,med,broken clouds,FALSE
+oct,fri,evening,FALSE,med,low,med,overcast clouds,TRUE
+oct,sat,evening,FALSE,med,low,med,moderate rain,TRUE
+oct,sun,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,mon,evening,FALSE,med,high,med,sky is clear,TRUE
+oct,tues,evening,FALSE,med,med,med,broken clouds,FALSE
+oct,wed,evening,FALSE,med,med,med,overcast clouds,FALSE
+oct,thur,evening,FALSE,med,high,strong,overcast clouds,FALSE
+oct,fri,evening,FALSE,med,high,weak,sky is clear,TRUE
+oct,sat,morning,FALSE,med,high,med,sky is clear,TRUE
+nov,sun,morning,FALSE,med,med,med,sky is clear,TRUE
+nov,mon,evening,FALSE,med,low,med,sky is clear,TRUE
+nov,tues,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,wed,evening,FALSE,med,high,med,mist,FALSE
+nov,thur,evening,FALSE,med,high,strong,broken clouds,TRUE
+nov,fri,evening,FALSE,med,low,strong,overcast clouds,FALSE
+nov,sat,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,sun,morning,FALSE,med,high,med,sky is clear,FALSE
+nov,mon,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,tues,evening,FALSE,med,high,weak,sky is clear,FALSE
+nov,wed,evening,TRUE,med,high,strong,haze,TRUE
+nov,thur,evening,FALSE,med,med,strong,overcast clouds,TRUE
+nov,fri,evening,FALSE,med,low,strong,few clouds,FALSE
+nov,sat,evening,FALSE,med,med,med,sky is clear,TRUE
+nov,sun,evening,FALSE,med,low,med,sky is clear,FALSE
+nov,mon,evening,FALSE,med,low,med,scattered clouds,FALSE
+nov,tues,evening,FALSE,med,high,strong,mist,FALSE
+nov,wed,evening,FALSE,med,low,strong,light rain,TRUE
+nov,thur,evening,FALSE,med,high,strong,scattered clouds,FALSE
+nov,fri,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,sat,evening,FALSE,med,high,strong,overcast clouds,TRUE
+nov,sun,evening,FALSE,cool,med,med,sky is clear,TRUE
+nov,mon,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,tues,evening,FALSE,med,high,med,sky is clear,FALSE
+nov,wed,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,thur,evening,TRUE,med,med,strong,overcast clouds,TRUE
+nov,fri,evening,FALSE,med,high,strong,overcast clouds,TRUE
+nov,sat,evening,FALSE,med,high,strong,overcast clouds,TRUE
+nov,sun,evening,FALSE,med,high,med,sky is clear,TRUE
+nov,mon,evening,FALSE,med,high,med,overcast clouds,FALSE
+dec,tues,evening,FALSE,med,high,med,overcast clouds,TRUE
+dec,wed,evening,FALSE,med,high,med,light rain,FALSE
+dec,thur,evening,FALSE,med,high,med,mist,TRUE
+dec,fri,evening,FALSE,med,high,med,mist,TRUE
+dec,sat,evening,FALSE,med,high,med,fog,TRUE
+dec,sun,evening,FALSE,med,high,med,mist,TRUE
+dec,mon,evening,FALSE,med,high,med,fog,FALSE
+dec,tues,evening,FALSE,med,high,med,mist,FALSE
+dec,wed,evening,FALSE,med,high,med,sky is clear,TRUE
+dec,thur,evening,FALSE,med,low,strong,sky is clear,TRUE
+dec,fri,evening,FALSE,med,low,med,sky is clear,TRUE
+dec,sat,evening,FALSE,med,high,weak,overcast clouds,FALSE
+dec,sun,morning,FALSE,med,high,med,overcast clouds,TRUE
+dec,mon,evening,FALSE,med,high,strong,mist,FALSE
+dec,tues,evening,FALSE,med,high,med,overcast clouds,TRUE
+dec,wed,evening,FALSE,med,med,strong,overcast clouds,TRUE
+dec,thur,evening,FALSE,med,high,strong,overcast clouds,TRUE
+dec,fri,evening,FALSE,cool,high,strong,sky is clear,FALSE
+dec,sat,morning,FALSE,cool,low,med,sky is clear,FALSE
+dec,sun,evening,FALSE,med,high,strong,sky is clear,TRUE
+dec,mon,evening,FALSE,med,med,strong,moderate rain,TRUE
+dec,tues,evening,FALSE,med,high,med,light rain,FALSE
+dec,wed,evening,FALSE,med,high,strong,mist,TRUE
+dec,thur,evening,FALSE,med,high,strong,light rain,TRUE
+dec,fri,morning,TRUE,med,high,med,overcast clouds,TRUE
+dec,sat,evening,FALSE,med,high,med,broken clouds,TRUE
+dec,sun,evening,FALSE,med,high,strong,light rain,TRUE
+dec,mon,evening,FALSE,med,high,strong,overcast clouds,TRUE
+dec,tues,evening,FALSE,med,high,strong,mist,TRUE
+dec,wed,evening,FALSE,cool,high,med,overcast clouds,FALSE
+dec,thur,evening,FALSE,cool,low,med,overcast clouds,FALSE

@@ -1,0 +1,137 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "trig",
+					"strict" : false
+				},
+				{
+					"name" : "dis_ten[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_ten[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_ten[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_ten[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_ten[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_ten[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_ten[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_hundred[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_hundred[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_hundred[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_hundred[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_hundred[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dis_hundred[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[0]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[1]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[2]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[3]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[4]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[5]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[6]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[7]",
+					"strict" : false
+				},
+				{
+					"name" : "data_ram[8]",
+					"strict" : false
+				},
+				{
+					"name" : "tx",
+					"strict" : false
+				},
+				{
+					"name" : "rts",
+					"strict" : false
+				},
+				{
+					"name" : "p_one",
+					"strict" : false
+				},
+				{
+					"name" : "p_two",
+					"strict" : false
+				},
+				{
+					"name" : "p_three",
+					"strict" : false
+				},
+				{
+					"name" : "p_four",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "echo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

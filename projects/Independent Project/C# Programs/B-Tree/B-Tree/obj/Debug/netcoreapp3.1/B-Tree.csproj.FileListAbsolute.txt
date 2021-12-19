@@ -1,0 +1,13 @@
+C:\Users\jrurs\Documents\B-Tree\B-Tree\bin\Debug\netcoreapp3.1\B-Tree.exe
+C:\Users\jrurs\Documents\B-Tree\B-Tree\bin\Debug\netcoreapp3.1\B-Tree.deps.json
+C:\Users\jrurs\Documents\B-Tree\B-Tree\bin\Debug\netcoreapp3.1\B-Tree.runtimeconfig.json
+C:\Users\jrurs\Documents\B-Tree\B-Tree\bin\Debug\netcoreapp3.1\B-Tree.runtimeconfig.dev.json
+C:\Users\jrurs\Documents\B-Tree\B-Tree\bin\Debug\netcoreapp3.1\B-Tree.dll
+C:\Users\jrurs\Documents\B-Tree\B-Tree\bin\Debug\netcoreapp3.1\B-Tree.pdb
+C:\Users\jrurs\Documents\B-Tree\B-Tree\obj\Debug\netcoreapp3.1\B-Tree.csprojAssemblyReference.cache
+C:\Users\jrurs\Documents\B-Tree\B-Tree\obj\Debug\netcoreapp3.1\B-Tree.AssemblyInfoInputs.cache
+C:\Users\jrurs\Documents\B-Tree\B-Tree\obj\Debug\netcoreapp3.1\B-Tree.AssemblyInfo.cs
+C:\Users\jrurs\Documents\B-Tree\B-Tree\obj\Debug\netcoreapp3.1\B-Tree.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\Documents\B-Tree\B-Tree\obj\Debug\netcoreapp3.1\B-Tree.dll
+C:\Users\jrurs\Documents\B-Tree\B-Tree\obj\Debug\netcoreapp3.1\B-Tree.pdb
+C:\Users\jrurs\Documents\B-Tree\B-Tree\obj\Debug\netcoreapp3.1\B-Tree.genruntimeconfig.cache

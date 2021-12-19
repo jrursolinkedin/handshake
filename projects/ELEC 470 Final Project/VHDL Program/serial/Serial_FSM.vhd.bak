@@ -1,0 +1,186 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity Serial_FSM is
+	generic(measurment : integer:= 9);
+	port(
+		clk : in std_logic;
+		reset : in std_logic;
+		sensor_done : in std_logic;
+		comparator_out : in std_logic;
+		data_in : in std_logic_vector(measurement-1 downto 0);
+		tx_port : out std_logic;
+		rts_port : out std_logic;
+		enable_counter : out std_logic;
+		reset_counter : out std_logic
+	);
+end entity;
+
+architecture behave of Serial_FSM is
+
+	signal current_state : std_logic_vector(3 downto 0):= (others=>'0');
+	signal next_state : std_logic_vector(3 downto 0):= (others=>'0');
+
+begin
+
+	-- Updates the "current_state" signal.
+	process(clk, reset)
+	begin
+	
+		if reset = '1' then
+			current_state <= (others=>'0');
+		elsif rising_edge(clk) then
+			current_state <= next_state;
+		end if;
+	
+	end process;
+	
+	-- Updates the output values.
+	process(current_state, sensor_done, comparator_out)
+	begin
+	
+		case current_state is
+			-- State 0:
+			when "0000" =>
+				tx_port <= '1';
+				rts_port <= '0';
+				enable_counter <= '0';
+				reset_counter <= '0';
+				if sensor_done = '1' then
+					next_state <= "0001";
+				else
+					next_state <= "0000";
+				end if;
+			-- State 1:
+			when "0001" =>
+				tx_port <= '0';
+				rts_port <= '0';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "0010";
+				else
+					reset_counter <= '0';
+					next_state <= "0001";
+				end if;
+			-- State 2:
+			when "0010" =>
+				tx_port <= data_in(0);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "0011";
+				else
+					reset_counter <= '0';
+					next_state <= "0010";
+				end if;
+			-- State 3:
+			when "0011" =>
+				tx_port <= data_in(1);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "0100";
+				else
+					reset_counter <= '0';
+					next_state <= "0011";
+				end if;
+			-- State 4:
+			when "0100" =>
+				tx_port <= data_in(2);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "0101";
+				else
+					reset_counter <= '0';
+					next_state <= "0100";
+				end if;
+			-- State 5:
+			when "0101" =>
+				tx_port <= data_in(3);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "0110";
+				else
+					reset_counter <= '0';
+					next_state <= "0101";
+				end if;
+			-- State 6:
+			when "0110" =>
+				tx_port <= data_in(4);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "0111";
+				else
+					reset_counter <= '0';
+					next_state <= "0110";
+				end if;
+			-- State 7:
+			when "0111" =>
+				tx_port <= data_in(5);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "1000";
+				else
+					reset_counter <= '0';
+					next_state <= "0111";
+				end if;
+			-- State 8:
+			when "1000" =>
+				tx_port <= data_in(6);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "1001";
+				else
+					reset_counter <= '0';
+					next_state <= "1000";
+				end if;
+			-- State 9:
+			when "1001" =>
+				tx_port <= data_in(7);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "1010";
+				else
+					reset_counter <= '0';
+					next_state <= "1001";
+				end if;
+			-- State 10:
+			when "1010" =>
+				tx_port <= data_in(8);
+				rts_port <= '1';
+				enable_counter <= '1';
+				if comparator_out = '1' then
+					reset_counter <= '1';
+					next_state <= "0000";
+				else
+					reset_counter <= '0';
+					next_state <= "1010";
+				end if;
+			-- Default State:
+			when others =>
+				tx_port <= '1';
+				rts_port <= '0';
+				enable_counter <= '0';
+				reset_counter <= '0';
+				next_state <= "0000";
+		end case;
+	
+	end process;
+
+end architecture;

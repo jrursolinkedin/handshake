@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Splay Tree", "Splay Tree\Splay Tree.csproj", "{FAE493A3-40B3-4072-A7D7-D9249A5807FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAE493A3-40B3-4072-A7D7-D9249A5807FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE493A3-40B3-4072-A7D7-D9249A5807FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE493A3-40B3-4072-A7D7-D9249A5807FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE493A3-40B3-4072-A7D7-D9249A5807FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C355C3CD-D9C0-48E6-90C5-7B0BA26F9300}
+	EndGlobalSection
+EndGlobal

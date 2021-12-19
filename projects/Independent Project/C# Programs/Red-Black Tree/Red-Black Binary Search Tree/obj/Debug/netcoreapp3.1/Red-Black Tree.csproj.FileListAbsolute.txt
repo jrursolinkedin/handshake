@@ -1,0 +1,13 @@
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\bin\Debug\netcoreapp3.1\Red-Black Tree.exe
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\bin\Debug\netcoreapp3.1\Red-Black Tree.deps.json
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\bin\Debug\netcoreapp3.1\Red-Black Tree.runtimeconfig.json
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\bin\Debug\netcoreapp3.1\Red-Black Tree.runtimeconfig.dev.json
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\bin\Debug\netcoreapp3.1\Red-Black Tree.dll
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\bin\Debug\netcoreapp3.1\Red-Black Tree.pdb
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\obj\Debug\netcoreapp3.1\Red-Black Tree.csprojAssemblyReference.cache
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\obj\Debug\netcoreapp3.1\Red-Black Tree.AssemblyInfoInputs.cache
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\obj\Debug\netcoreapp3.1\Red-Black Tree.AssemblyInfo.cs
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\obj\Debug\netcoreapp3.1\Red-Black Tree.csproj.CoreCompileInputs.cache
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\obj\Debug\netcoreapp3.1\Red-Black Tree.dll
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\obj\Debug\netcoreapp3.1\Red-Black Tree.pdb
+C:\Users\jrurs\Documents\Red-Black Tree\Red-Black Binary Search Tree\obj\Debug\netcoreapp3.1\Red-Black Tree.genruntimeconfig.cache

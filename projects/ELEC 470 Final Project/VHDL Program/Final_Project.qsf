@@ -1,0 +1,118 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2020  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
+# Date created = 16:06:14  November 20, 2021
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Final_Project_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY Circuit_Components
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:06:14  NOVEMBER 20, 2021"
+set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VHDL_FILE sensor/Calculator_Cm_Comparator.vhd
+set_global_assignment -name VHDL_FILE sensor/Calculator_Cm_Counter_One.vhd
+set_global_assignment -name VHDL_FILE sensor/Calculator_Cm_Counter_Two.vhd
+set_global_assignment -name VHDL_FILE sensor/Calculator_Cm_FSM.vhd
+set_global_assignment -name VHDL_FILE sensor/Distance_Calculator.vhd
+set_global_assignment -name VHDL_FILE sensor/Distance_Counter.vhd
+set_global_assignment -name VHDL_FILE sensor/Distance_Decoder.vhd
+set_global_assignment -name VHDL_FILE sensor/Distance_FSM.vhd
+set_global_assignment -name VHDL_FILE sensor/HCSR04.vhd
+set_global_assignment -name VHDL_FILE sensor/Sensor_Comparator.vhd
+set_global_assignment -name VHDL_FILE sensor/Sensor_Counter.vhd
+set_global_assignment -name VHDL_FILE sensor/Sensor_FSM.vhd
+set_global_assignment -name VHDL_FILE ram/RAM.vhd
+set_global_assignment -name VHDL_FILE ram/RAM_Comparator.vhd
+set_global_assignment -name VHDL_FILE ram/RAM_Counter.vhd
+set_global_assignment -name VHDL_FILE ram/RAM_FSM.vhd
+set_global_assignment -name VHDL_FILE ram/Sensor_RAM.vhd
+set_global_assignment -name VHDL_FILE serial/Sensor_Serial.vhd
+set_global_assignment -name VHDL_FILE serial/Serial_Comparator.vhd
+set_global_assignment -name VHDL_FILE serial/Serial_Counter.vhd
+set_global_assignment -name VHDL_FILE serial/Serial_FSM.vhd
+set_global_assignment -name VHDL_FILE Circuit_Components.vhd
+set_global_assignment -name VHDL_FILE Circuit_Components_tb.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_AF14 -to clk
+set_location_assignment PIN_Y18 -to dis_hundred[4]
+set_location_assignment PIN_AF18 -to dis_hundred[5]
+set_location_assignment PIN_W16 -to dis_hundred[6]
+set_location_assignment PIN_AA24 -to data_ram[0]
+set_location_assignment PIN_AB23 -to data_ram[1]
+set_location_assignment PIN_AC23 -to data_ram[2]
+set_location_assignment PIN_AD24 -to data_ram[3]
+set_location_assignment PIN_AG25 -to data_ram[4]
+set_location_assignment PIN_AF25 -to data_ram[5]
+set_location_assignment PIN_AE24 -to data_ram[6]
+set_location_assignment PIN_AF24 -to data_ram[7]
+set_location_assignment PIN_AB22 -to data_ram[8]
+set_location_assignment PIN_AK2 -to echo
+set_location_assignment PIN_W15 -to trig
+set_location_assignment PIN_Y16 -to tx
+set_location_assignment PIN_AK3 -to rts
+set_location_assignment PIN_W17 -to dis_one[0]
+set_location_assignment PIN_V18 -to dis_one[1]
+set_location_assignment PIN_AG17 -to dis_one[2]
+set_location_assignment PIN_AG16 -to dis_one[3]
+set_location_assignment PIN_AH17 -to dis_one[4]
+set_location_assignment PIN_AG18 -to dis_one[5]
+set_location_assignment PIN_AH18 -to dis_one[6]
+set_location_assignment PIN_AF16 -to dis_ten[0]
+set_location_assignment PIN_V16 -to dis_ten[1]
+set_location_assignment PIN_AE16 -to dis_ten[2]
+set_location_assignment PIN_AD17 -to dis_ten[3]
+set_location_assignment PIN_AE18 -to dis_ten[4]
+set_location_assignment PIN_AE17 -to dis_ten[5]
+set_location_assignment PIN_V17 -to dis_ten[6]
+set_location_assignment PIN_AA21 -to dis_hundred[0]
+set_location_assignment PIN_AB17 -to dis_hundred[1]
+set_location_assignment PIN_AA18 -to dis_hundred[2]
+set_location_assignment PIN_Y17 -to dis_hundred[3]
+set_location_assignment PIN_AB30 -to rst
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name VHDL_FILE motor/Comparator.vhd
+set_global_assignment -name VHDL_FILE motor/Counter.vhd
+set_global_assignment -name VHDL_FILE motor/OneStep_FSM.vhd
+set_global_assignment -name VHDL_FILE motor/Stepper_Motor.vhd
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
